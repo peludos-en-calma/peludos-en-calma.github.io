@@ -10,7 +10,7 @@
    "how": "Cómo funciona",
    "prices": "Tarifas",
    "payment": "Pago",
-   "quiz": "Cuestionario",
+   "quiz": "Cuestionario IA",
    "about": "Sobre mí",
    "approach": "Método",
    "faq": "Preguntas"
@@ -420,7 +420,7 @@
    "how": "Как проходит",
    "prices": "Цены",
    "payment": "Оплата",
-   "quiz": "Опросник",
+   "quiz": "Опросник ИИ",
    "about": "Обо мне",
    "approach": "Подход",
    "faq": "Вопросы"
@@ -830,7 +830,7 @@
    "how": "Süreç",
    "prices": "Fiyatlar",
    "payment": "Ödeme",
-   "quiz": "Anket",
+   "quiz": "YZ anketi",
    "about": "Hakkımda",
    "approach": "Yaklaşım",
    "faq": "Sorular"
@@ -1240,7 +1240,7 @@
    "how": "How it works",
    "prices": "Prices",
    "payment": "Payment",
-   "quiz": "Questionnaire",
+   "quiz": "AI questionnaire",
    "about": "About",
    "approach": "Approach",
    "faq": "FAQ"
