@@ -94,7 +94,7 @@
 .stat span{font-size:17px;line-height:1.5;font-weight:700;color:var(--soft)}
 
 /* ribbons */
-.ribbons{padding-block:56px 64px;--skew:0deg}
+.ribbons{padding-block:56px 64px;--skew:0deg;overflow:hidden}
 .ribbon{overflow:hidden;margin-inline:-60px;padding-block:18px;transform:rotate(-2deg) skewX(var(--skew))}
 .track{display:flex;width:max-content;animation:marquee 42s linear infinite}
 .track span{display:inline-flex;align-items:center;gap:36px;padding-right:36px;white-space:nowrap}
@@ -171,9 +171,13 @@
 .principle p:first-child{font-family:var(--f-display);font-weight:600;font-size:clamp(20px,2vw,24px);line-height:1.25;letter-spacing:-.01em}
 .principle .mark{color:var(--forest)}
 .principle p:last-child{color:var(--mint-ink);font-size:16px}
-.refer{flex:1.3 1 520px;min-width:0;background:var(--surface);border-radius:40px;padding:clamp(24px,3vw,40px);display:flex;flex-direction:column;gap:18px}
-.refer>p:first-child{font-family:var(--f-display);font-weight:600;font-size:clamp(20px,2vw,24px);line-height:1.25;letter-spacing:-.01em}
-.refer>p:nth-child(2){font-size:16px;color:var(--soft)}
+.refer{flex:1.3 1 520px;min-width:0;background:var(--surface);border-radius:40px;padding:clamp(24px,3vw,40px)}
+.refer summary{display:flex;align-items:center;justify-content:space-between;gap:16px;list-style:none;font-family:var(--f-display);font-weight:600;font-size:clamp(20px,2vw,24px);line-height:1.25;letter-spacing:-.01em;pointer-events:none}
+.refer summary::-webkit-details-marker{display:none}
+.refer .chev{display:none;font-size:22px;transition:transform .35s var(--ease)}
+.refer[open] .chev{transform:rotate(180deg)}
+.refer-body{display:flex;flex-direction:column;gap:18px;margin-top:18px}
+.refer-body>p{font-size:16px;color:var(--soft)}
 .refer ul{display:flex;flex-direction:column;gap:8px}
 .refer li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 16px;padding:14px 18px;border-radius:18px;background:var(--bg);transition:transform .35s var(--spring),box-shadow .35s}
 .refer li:hover{transform:translateX(6px);box-shadow:0 18px 40px -28px rgba(58,42,62,.4)}
@@ -306,6 +310,115 @@
 /* scroll reveal: elements only hide once the reader starts scrolling and they are still below the fold */
 [data-reveal].is-pending{opacity:0;transform:translateY(36px)}
 [data-reveal].is-in{animation:rise .9s var(--ease) var(--d,0ms) backwards}
+/* phone layout: one shorter column; long rows become swipeable carousels, decorative extras are hidden */
+.swipe-dots,.hero-strip{display:none}
+@media (max-width:640px){
+  .sec{padding-block:40px}
+  .stack{gap:24px}
+  .sec-head{gap:14px}
+  .sec-head>div{gap:12px}
+  .h2{font-size:26px}
+  .lead{font-size:15.5px}
+  .hero{padding-block:20px 8px}
+  .hero-grid{gap:0}
+  .hero-copy{gap:18px}
+  .hero h1{font-size:31px}
+  .hero-lead{font-size:16px}
+  .collage-col{display:none}
+  .hero-strip{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:118px;gap:8px}
+  .hero-strip img{width:100%;height:118px;min-height:0;object-fit:cover;border-radius:18px}
+  .hero-strip img:first-child{border-radius:999px 999px 18px 18px}
+  .chooser{padding:18px;gap:14px;border-radius:26px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;margin-inline:-18px;padding-inline:18px;scroll-padding-inline:18px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:none}
+  .fit{padding:14px;gap:12px}
+  .fit-side{flex-direction:row;align-items:center;justify-content:space-between;width:100%}
+  .fit-side .btn{min-height:44px;padding:0 18px;font-size:15px}
+
+  .m-swipe{display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px;padding-bottom:4px;scrollbar-width:none;overscroll-behavior-x:contain}
+  .m-swipe::-webkit-scrollbar{display:none}
+  .m-swipe>*{flex:0 0 84%;scroll-snap-align:start;min-width:0}
+  .swipe-dots{display:flex;justify-content:center;gap:6px;margin-top:-10px}
+  .stats+.swipe-dots{margin-top:12px}
+  .swipe-dots span{width:7px;height:7px;border-radius:999px;background:#E3CFD6;transition:width .3s var(--ease),background-color .3s}
+  .swipe-dots span.on{width:20px;background:var(--accent)}
+
+  .stats>*{flex-basis:70%}
+  .stat{padding:20px 22px;border-radius:26px}
+  .stat b{font-size:32px}
+  .stat span{font-size:15px}
+  .ribbons{padding-block:28px 32px}
+  .ribbon{padding-block:12px}
+  .ribbon .track span{font-size:17px;gap:24px;padding-right:24px}
+
+  .services{border-radius:36px 36px 0 0}
+  .svc{padding:20px}
+  .svc.big,.svc.wide{padding:12px}
+  .svc.big .zoom{height:170px}
+  .svc.big h3{font-size:22px}
+  .svc.big p{font-size:15px}
+  .svc.wide{flex-direction:column;flex-wrap:nowrap}
+  .svc.wide .zoom{flex:none;min-height:0;height:150px}
+  .svc.wide .body{padding:6px 10px 10px}
+
+  .process{border-radius:32px;padding:24px 18px;gap:22px}
+  .steps>*{flex-basis:78%}
+  .step{padding:22px}
+  .step::before{font-size:32px}
+  .note{font-size:14px;padding:14px 16px}
+
+  .tools>*{flex-basis:78%}
+  .tool{padding:22px}
+  .split{gap:16px}
+  .principle .zoom{display:none}
+  .principle,.refer{border-radius:28px}
+  .principle .body{padding:16px}
+  .refer{padding:20px}
+  .refer summary{pointer-events:auto;cursor:pointer;min-height:44px;font-size:19px}
+  .refer .chev{display:block}
+  .refer-body{margin-top:12px;gap:12px}
+  .refer li{padding:12px 14px}
+
+  .prow{padding:16px 18px;gap:8px 16px;border-radius:22px}
+  .prow h3{font-size:16px}
+  .prow p{font-size:14px}
+  .prow .meta{min-width:0;font-size:13px}
+  .prow .amount{font-size:22px;margin-left:auto;min-width:0}
+  .notes{padding:16px 18px}
+
+  .soonbox{border-radius:32px;padding:24px 20px;gap:0}
+  .mock-col{display:none}
+  .quiz-grid{gap:0}
+  .soon-copy,.quiz-copy{gap:14px}
+  .checks li{font-size:15px}
+  .facts4{gap:10px}
+  .facts4 li{padding:0;background:none;font-size:14.5px}
+
+  .about{gap:20px}
+  .portrait{max-width:170px}
+  .bubble{display:none}
+  .about-copy{gap:14px}
+  .about-copy p{font-size:15.5px}
+  .facts{gap:8px}
+  .facts div{padding:12px 14px;border-radius:16px}
+
+  .faq{gap:20px}
+  .faq-photo{display:none}
+  .acc-btn{min-height:60px;padding:14px 14px 14px 20px;font-size:15.5px}
+  .acc-panel p{padding:0 20px 20px;font-size:15px}
+
+  .booking{border-radius:32px}
+  .booking-copy{padding:24px 20px;gap:16px}
+  .booking-photo{display:none}
+  .phone-row .btn{min-height:52px}
+  .phone-row .btn-accent{font-size:18px}
+  .booking dl div{padding:12px 14px}
+
+  .ftr{padding-block:40px calc(108px + env(safe-area-inset-bottom,0px))}
+  .ftr-nav{display:none}
+}
+.js.intro .hero-strip{animation:rise .9s var(--ease) .5s backwards}
 @media (prefers-reduced-motion:reduce){[data-reveal].is-pending{opacity:1;transform:none}}
 </style>
 </head>
@@ -328,6 +441,7 @@
   <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></symbol>
   <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14"></path><path d="M5 12h14"></path></symbol>
   <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5.5 11a6.5 6.5 0 0 0 13 0"></path><path d="M12 17.5V21"></path></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></symbol>
   <symbol id="i-camera" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="14" rx="3"></rect><circle cx="12" cy="12.5" r="3.6"></circle><path d="M8.5 5.5l1.4-2h4.2l1.4 2"></path></symbol>
 </svg>
 
@@ -395,6 +509,7 @@
       <span class="badge"><span class="pulse-dot"></span><span data-i18n="eyebrow"></span></span>
       <h1><span class="h1a" data-i18n="h1a"></span><span class="mark"><span class="h1i" data-i18n="h1i"></span><svg class="underline" viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 14 C 70 3, 160 2, 296 11"></path></svg></span><span class="h1b" data-i18n="h1b"></span></h1>
       <p class="hero-lead" data-i18n="lead"></p>
+      <div class="hero-strip" aria-hidden="true"><img src="img/hand-cat.jpg" alt="" width="900" height="1350" loading="lazy"><img src="img/rabbit-lop.jpg" alt="" width="900" height="675" loading="lazy"><img src="img/kittens.jpg" alt="" width="1000" height="800" loading="lazy"></div>
       <div class="species">
         <div class="avatars">
           <img src="img/hero-dog.jpg" alt="" data-i18n-attr="alt:sp.0" width="52" height="52">
@@ -454,7 +569,7 @@
 </section>
 
 <section class="wrap" aria-label="" data-i18n-attr="aria-label:statsLabel">
-  <div class="stats">
+  <div class="stats m-swipe">
     <div class="stat card t-mint" data-reveal><b data-count data-i18n="st1n"></b><span data-i18n="st1t"></span></div>
     <div class="stat card t-blush" data-reveal><b data-count data-i18n="st2n"></b><span data-i18n="st2t"></span></div>
     <div class="stat card t-lilac" data-reveal><b data-count data-i18n="st3n"></b><span>español · русский · türkçe · english</span></div>
@@ -489,7 +604,7 @@
       </div>
       <p class="lead" style="max-width:500px" data-reveal data-i18n="svLead"></p>
     </div>
-    <div class="bento">
+    <div class="bento m-swipe">
       <article class="svc big card t-blush" data-reveal>
         <div class="zoom"><img src="img/owner-cat.jpg" alt="" data-i18n-attr="alt:alt.owner" width="1000" height="667" loading="lazy"><span class="price">80 €</span></div>
         <div class="body">
@@ -528,7 +643,7 @@
         </div>
         <div class="paws" aria-hidden="true"><svg class="icf"><use href="#i-paw"></use></svg><svg class="icf"><use href="#i-paw"></use></svg><svg class="icf"><use href="#i-paw"></use></svg><svg class="icf"><use href="#i-paw"></use></svg><svg class="icf"><use href="#i-paw"></use></svg></div>
       </div>
-      <ol class="steps" style="padding:0;margin:0;list-style:none">
+      <ol class="steps m-swipe" style="padding:0;margin:0;list-style:none">
         <li class="step card" data-reveal><h3 data-i18n="steps.0.t"></h3><p data-i18n="steps.0.d"></p></li>
         <li class="step card" data-reveal><h3 data-i18n="steps.1.t"></h3><p data-i18n="steps.1.d"></p></li>
         <li class="step card" data-reveal><h3 data-i18n="steps.2.t"></h3><p data-i18n="steps.2.d"></p></li>
@@ -548,7 +663,7 @@
     </div>
     <p class="lead" style="max-width:460px" data-reveal data-i18n="apLead"></p>
   </div>
-  <div class="tools">
+  <div class="tools m-swipe">
     <div class="tool card" data-reveal><b class="t-peach" data-i18n="tools.0.k"></b><p data-i18n="tools.0.d"></p></div>
     <div class="tool card" data-reveal><b class="t-butter" data-i18n="tools.1.k"></b><p data-i18n="tools.1.d"></p></div>
     <div class="tool card" data-reveal><b class="t-lilac" data-i18n="tools.2.k"></b><p data-i18n="tools.2.d"></p></div>
@@ -559,8 +674,9 @@
       <div class="zoom"><img src="img/dog-bath.jpg" alt="" data-i18n-attr="alt:alt.bath" width="1000" height="667" loading="lazy"></div>
       <div class="body"><p><span data-i18n="prA"></span><span class="mark" data-i18n="prI"></span></p><p data-i18n="prText"></p></div>
     </div>
-    <div class="refer" data-reveal>
-      <p data-i18n="refT"></p>
+    <details class="refer" open data-m-collapse data-reveal>
+      <summary><span data-i18n="refT"></span><svg class="ic chev"><use href="#i-chev"></use></svg></summary>
+      <div class="refer-body">
       <p data-i18n="refLead"></p>
       <ul>
         <li><span data-i18n="refs.0.what"></span><span class="who"><svg class="ic"><use href="#i-arrow"></use></svg><span data-i18n="refs.0.who"></span></span></li>
@@ -570,7 +686,8 @@
         <li><span data-i18n="refs.4.what"></span><span class="who"><svg class="ic"><use href="#i-arrow"></use></svg><span data-i18n="refs.4.who"></span></span></li>
         <li><span data-i18n="refs.5.what"></span><span class="who no"><svg class="ic"><use href="#i-close"></use></svg><span data-i18n="refs.5.who"></span></span></li>
       </ul>
-    </div>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -919,6 +1036,32 @@
       panel.setAttribute('aria-hidden', String(!open));
     });
   });
+
+  /* ---------- phone carousels: dots under each swipeable row ---------- */
+  $$('.m-swipe').forEach((track) => {
+    const items = Array.from(track.children);
+    const dots = document.createElement('div');
+    dots.className = 'swipe-dots';
+    dots.setAttribute('aria-hidden', 'true');
+    items.forEach(() => dots.appendChild(document.createElement('span')));
+    track.after(dots);
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const step = items.length > 1 ? items[1].offsetLeft - items[0].offsetLeft : 1;
+      const i = Math.max(0, Math.min(items.length - 1, Math.round(track.scrollLeft / step)));
+      Array.from(dots.children).forEach((d, k) => d.classList.toggle('on', k === i));
+    };
+    track.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(update); }, { passive: true });
+    update();
+  });
+
+  /* ---------- blocks that start collapsed on phones ---------- */
+  const phone = window.matchMedia('(max-width: 640px)');
+  const collapsible = $$('details[data-m-collapse]');
+  const setCollapsed = () => collapsible.forEach((d) => { d.open = !phone.matches; });
+  setCollapsed();
+  if (phone.addEventListener) phone.addEventListener('change', setCollapsed);
 
   /* ---------- copy phone ---------- */
   function renderCopy() {
