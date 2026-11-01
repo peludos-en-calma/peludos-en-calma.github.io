@@ -83,7 +83,7 @@
    },
    {
     "t": "Cuestionario, fotos y vídeos",
-    "d": "Antes de la cita me cuentas sobre tu mascota y tu casa y me envías fotos y vídeos. Pronto podrás hacerlo en el cuestionario online."
+    "d": "Antes de la cita me cuentas sobre tu mascota y tu casa y me envías fotos y vídeos. También puedes contármelo en el cuestionario online."
    },
    {
     "t": "Videollamada",
@@ -249,16 +249,16 @@
    "Transferencia"
   ],
   "payBtn": "Pagar 65 €",
-  "qBadge": "Cuestionario y app con IA · pronto",
+  "qBadge": "Cuestionario con IA · ya disponible",
   "qA": "El cuestionario online ",
   "qI": "con IA",
-  "qB": " estará disponible muy pronto",
-  "qText": "Con él podrás preparar la cita con antelación: respondes cuando te venga bien a preguntas sobre tu mascota, tu casa y vuestra rutina, y subes fotos y vídeos. La IA ordena tus respuestas en una ficha; las recomendaciones las preparo y reviso yo personalmente.",
+  "qB": " ya está disponible",
+  "qText": "Con él puedes preparar la cita con antelación: respondes cuando te venga bien a preguntas sobre tu mascota, tu casa y vuestra rutina, por escrito o con la voz. La IA ordena tus respuestas en una ficha; las recomendaciones las preparo y reviso yo personalmente.",
   "q1": "La cita empieza por lo importante: ya conozco lo básico de tu mascota.",
-  "q2": "Antes de empezar verás un aviso de que tus respuestas las procesa una IA.",
-  "q3": "Datos, fotos y vídeos se tratan con tu consentimiento, según el RGPD.",
+  "q2": "No se piden tu nombre, teléfono ni correo: solo el nombre de tu mascota y un código corto.",
+  "q3": "Tus respuestas se tratan con tu consentimiento, según el RGPD.",
   "q4": "La IA no diagnostica ni sustituye al especialista.",
-  "qNote": "Mientras no esté abierto, lo necesario sobre tu mascota lo hablamos en la llamada gratuita.",
+  "qNote": "El cuestionario está en español, ruso e inglés. Si prefieres no usarlo, lo necesario sobre tu mascota lo hablamos en la llamada gratuita.",
   "qStep": "Paso 2 · Casa y rutina",
   "qQuestion": "¿Cuántas horas al día suele pasar sola tu mascota?",
   "qo": [
@@ -266,7 +266,6 @@
    "4–8 h",
    "Más de 8 h"
   ],
-  "qUpload": "Fotos de dónde duerme y come",
   "qNext": "Siguiente",
   "photo": "Aquí irá la foto",
   "ab1": "De 2018 a 2024 mi casa fue casa de acogida para una protectora: los animales del refugio vivían conmigo mientras esperaban una familia.",
@@ -405,7 +404,10 @@
   "lgNav": "Textos legales",
   "lgAviso": "Aviso legal",
   "lgPrivacy": "Política de privacidad",
-  "lgCookies": "Política de cookies"
+  "lgCookies": "Política de cookies",
+  "qOpen": "Abrir el cuestionario",
+  "qLive": "Disponible",
+  "qVoice": "Responder con la voz"
  },
  "ru": {
   "home": "Bienestar Animal — на главную",
@@ -491,7 +493,7 @@
    },
    {
     "t": "Анкета, фото и видео",
-    "d": "До встречи вы рассказываете о питомце и доме и присылаете фото и видео. Скоро для этого появится онлайн-опросник."
+    "d": "До встречи вы рассказываете о питомце и доме и присылаете фото и видео. Рассказать о питомце можно и в онлайн-опроснике."
    },
    {
     "t": "Видеовстреча",
@@ -657,16 +659,16 @@
    "Банковский перевод"
   ],
   "payBtn": "Оплатить 65 €",
-  "qBadge": "Опросник и ИИ-приложение · скоро",
+  "qBadge": "Опросник с ИИ · уже работает",
   "qA": "Онлайн-опросник ",
   "qI": "на базе ИИ",
-  "qB": " скоро заработает",
-  "qText": "С ним к встрече можно подготовиться заранее: в удобное время ответить на вопросы о питомце, доме и режиме дня и загрузить фото и видео. ИИ собирает ответы в анкету, а рекомендации я готовлю и проверяю лично.",
+  "qB": " уже работает",
+  "qText": "С ним к встрече можно подготовиться заранее: в удобное время ответить на вопросы о питомце, доме и режиме дня, текстом или голосом. ИИ собирает ответы в анкету, а рекомендации я готовлю и проверяю лично.",
   "q1": "Встреча начинается с главного: основное о питомце я уже знаю из анкеты.",
-  "q2": "Перед началом вы увидите предупреждение о том, что ответы обрабатывает ИИ.",
-  "q3": "Данные, фото и видео обрабатываются с вашего согласия, по правилам RGPD.",
+  "q2": "Имя, телефон и почту не спрашиваем: только кличку питомца и короткий код.",
+  "q3": "Ответы обрабатываются с вашего согласия, по правилам RGPD.",
   "q4": "ИИ не ставит диагнозов и не даёт советов вместо специалиста.",
-  "qNote": "Пока опросник не открыт, всё нужное о питомце я узнаю на бесплатном звонке.",
+  "qNote": "Опросник доступен на испанском, русском и английском. Если не хотите им пользоваться, всё нужное о питомце обсудим на бесплатном звонке.",
   "qStep": "Шаг 2 · Дом и режим",
   "qQuestion": "Сколько часов в день питомец обычно проводит один?",
   "qo": [
@@ -674,7 +676,6 @@
    "4–8 часов",
    "Больше 8 часов"
   ],
-  "qUpload": "Фото мест, где питомец спит и ест",
   "qNext": "Далее",
   "photo": "Здесь будет фото",
   "ab1": "С 2018 по 2024 год мой дом был casa de acogida для protectora: животные из приюта жили у меня, пока ждали новую семью.",
@@ -813,7 +814,10 @@
   "lgNav": "Правовые документы",
   "lgAviso": "Правовая информация",
   "lgPrivacy": "Политика конфиденциальности",
-  "lgCookies": "Политика cookies"
+  "lgCookies": "Политика cookies",
+  "qOpen": "Открыть опросник",
+  "qLive": "Работает",
+  "qVoice": "Ответить голосом"
  },
  "tr": {
   "home": "Bienestar Animal — ana sayfa",
@@ -899,7 +903,7 @@
    },
    {
     "t": "Anket, fotoğraf ve video",
-    "d": "Görüşmeden önce evcil hayvanınızı ve evinizi anlatır, fotoğraf ve video gönderirsiniz. Yakında bunun için online anket açılacak."
+    "d": "Görüşmeden önce evcil hayvanınızı ve evinizi anlatır, fotoğraf ve video gönderirsiniz. Evcil hayvanınızı online ankette de anlatabilirsiniz."
    },
    {
     "t": "Görüntülü görüşme",
@@ -1065,16 +1069,16 @@
    "Banka havalesi"
   ],
   "payBtn": "65 € öde",
-  "qBadge": "Anket ve yapay zekâ uygulaması · yakında",
+  "qBadge": "Yapay zekâ destekli anket · artık açık",
   "qA": "",
   "qI": "Yapay zekâ destekli",
-  "qB": " online anket çok yakında",
-  "qText": "Onunla görüşmeye önceden hazırlanabilirsiniz: evcil hayvanınız, eviniz ve günlük düzeniniz hakkındaki soruları size uygun bir zamanda yanıtlar, fotoğraf ve video yüklersiniz. Yapay zekâ yanıtlarınızı bir forma dönüştürür; önerileri ise ben hazırlar ve kontrol ederim.",
+  "qB": " online anket artık açık",
+  "qText": "Onunla görüşmeye önceden hazırlanabilirsiniz: evcil hayvanınız, eviniz ve günlük düzeniniz hakkındaki soruları size uygun bir zamanda yazarak ya da sesli olarak yanıtlarsınız. Yapay zekâ yanıtlarınızı bir forma dönüştürür; önerileri ise ben hazırlar ve kontrol ederim.",
   "q1": "Görüşme doğrudan önemli konuyla başlar; temel bilgileri anketten zaten bilirim.",
-  "q2": "Başlamadan önce yanıtlarınızın yapay zekâ ile işlendiğine dair bir bilgilendirme görürsünüz.",
-  "q3": "Veriler, fotoğraflar ve videolar onayınızla ve GDPR (RGPD) kurallarına göre işlenir.",
+  "q2": "Adınız, telefonunuz veya e-postanız sorulmaz: yalnızca evcil hayvanınızın adı ve kısa bir kod.",
+  "q3": "Yanıtlarınız onayınızla ve GDPR (RGPD) kurallarına göre işlenir.",
   "q4": "Yapay zekâ teşhis koymaz ve uzmanın yerini tutmaz.",
-  "qNote": "Anket açılana kadar evcil hayvanınızla ilgili gerekenleri ücretsiz görüşmede konuşuruz.",
+  "qNote": "Anket İspanyolca, Rusça ve İngilizce olarak sunulmaktadır. Kullanmak istemezseniz evcil hayvanınızla ilgili gerekenleri ücretsiz görüşmede konuşuruz.",
   "qStep": "Adım 2 · Ev ve günlük düzen",
   "qQuestion": "Evcil hayvanınız günde genellikle kaç saat yalnız kalıyor?",
   "qo": [
@@ -1082,7 +1086,6 @@
    "4–8 saat",
    "8 saatten fazla"
   ],
-  "qUpload": "Uyuduğu ve yemek yediği yerlerin fotoğrafları",
   "qNext": "İleri",
   "photo": "Fotoğraf burada olacak",
   "ab1": "2018–2024 yılları arasında evim bir hayvan derneği (protectora) için geçici yuva oldu: barınaktaki hayvanlar yeni ailelerini bulana kadar benimle yaşadı.",
@@ -1221,7 +1224,10 @@
   "lgNav": "Yasal metinler",
   "lgAviso": "Yasal uyarı",
   "lgPrivacy": "Gizlilik politikası",
-  "lgCookies": "Çerez politikası"
+  "lgCookies": "Çerez politikası",
+  "qOpen": "Anketi aç",
+  "qLive": "Açık",
+  "qVoice": "Sesle yanıtla"
  },
  "en": {
   "home": "Bienestar Animal — home",
@@ -1307,7 +1313,7 @@
    },
    {
     "t": "Questionnaire, photos and videos",
-    "d": "Before the call you tell me about your pet and home and send photos and videos. Soon you'll be able to do this in the online questionnaire."
+    "d": "Before the call you tell me about your pet and home and send photos and videos. You can also tell me about your pet in the online questionnaire."
    },
    {
     "t": "Video call",
@@ -1473,16 +1479,16 @@
    "Bank transfer"
   ],
   "payBtn": "Pay 65 €",
-  "qBadge": "Questionnaire and AI app · soon",
+  "qBadge": "AI questionnaire · now open",
   "qA": "The ",
   "qI": "AI-assisted",
-  "qB": " online questionnaire is coming soon",
-  "qText": "It lets you prepare ahead: answer questions about your pet, your home and your routine whenever suits you, and upload photos and videos. The AI organises your answers into a profile; I prepare and check the recommendations myself.",
+  "qB": " online questionnaire is now open",
+  "qText": "It lets you prepare ahead: answer questions about your pet, your home and your routine whenever suits you, in writing or by voice. The AI organises your answers into a profile; I prepare and check the recommendations myself.",
   "q1": "The session starts with what matters: I already know the basics from your answers.",
-  "q2": "Before you start, you'll be told that your answers are processed by AI.",
-  "q3": "Your data, photos and videos are processed with your consent under the GDPR.",
+  "q2": "We don't ask for your name, phone or email: just your pet's name and a short code.",
+  "q3": "Your answers are processed with your consent under the GDPR.",
   "q4": "The AI doesn't diagnose and doesn't replace the specialist.",
-  "qNote": "Until it opens, we'll cover what I need to know on the free call.",
+  "qNote": "The questionnaire is available in Spanish, Russian and English. If you'd rather not use it, we'll cover what I need to know on the free call.",
   "qStep": "Step 2 · Home and routine",
   "qQuestion": "How many hours a day is your pet usually alone?",
   "qo": [
@@ -1490,7 +1496,6 @@
    "4–8 h",
    "More than 8 h"
   ],
-  "qUpload": "Photos of where your pet sleeps and eats",
   "qNext": "Next",
   "photo": "Photo goes here",
   "ab1": "From 2018 to 2024 my home was a foster home for an animal shelter: rescue animals lived with me while they waited for a new family.",
@@ -1629,6 +1634,9 @@
   "lgNav": "Legal texts",
   "lgAviso": "Legal notice",
   "lgPrivacy": "Privacy policy",
-  "lgCookies": "Cookie policy"
+  "lgCookies": "Cookie policy",
+  "qOpen": "Open the questionnaire",
+  "qLive": "Live",
+  "qVoice": "Answer by voice"
  }
 }

@@ -3,5 +3,7 @@
   "nif": "[NIF]",
   "address": "[DOMICILIO]",
   "email": "[EMAIL]",
-  "phone": "+34 123 12 12 12"
+  "phone": "+34 123 12 12 12",
+  "quiz": "https://157-230-17-187.sslip.io/",
+  "ai": "[PROVEEDOR IA]"
 }

@@ -10,40 +10,201 @@
     "title": "Aviso legal",
     "desc": "Datos del titular y condiciones de uso de este sitio web.",
     "blocks": [
-     { "h": "Datos del titular", "p": ["En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), se informa de los datos del titular de este sitio web:"], "li": ["Titular: {name}", "NIF/NIE: {nif}", "Domicilio: {address}", "Correo electrónico: {email}", "Teléfono: {phone}", "Actividad: asesoría online de bienestar de animales de compañía"] },
-     { "h": "Objeto del sitio", "p": ["Este sitio web presenta los servicios de asesoría online de bienestar animal que presta la titular y facilita el contacto con ella.", "La asesoría no sustituye la atención veterinaria. El diagnóstico y el tratamiento de enfermedades corresponden siempre a un veterinario."] },
-     { "h": "Condiciones de uso", "p": ["El acceso al sitio es gratuito y no requiere registro. Al navegar por él te comprometes a usarlo conforme a la ley, a la buena fe y a este aviso legal, y a no realizar acciones que puedan dañarlo o impedir que otras personas lo usen."] },
-     { "h": "Propiedad intelectual e industrial", "p": ["Los textos, el diseño y el código de este sitio pertenecen a la titular, salvo que se indique lo contrario. No se permite reproducirlos ni distribuirlos con fines comerciales sin su autorización previa.", "Las fotografías proceden de Unsplash y se usan conforme a la licencia de Unsplash. Las tipografías Nunito, Playfair Display y Unbounded se distribuyen con la licencia SIL Open Font License."] },
-     { "h": "Responsabilidad", "p": ["La información del sitio es general y orientativa. La titular procura que sea correcta y esté actualizada, pero no responde de los daños derivados de un uso del sitio contrario a la ley o a este aviso legal, ni de interrupciones técnicas ajenas a su control.", "Los enlaces a sitios de terceros se ofrecen solo como referencia. La titular no controla su contenido ni responde de él."] },
-     { "h": "Protección de datos y cookies", "p": ["El tratamiento de tus datos personales se explica en la Política de privacidad. Este sitio no utiliza cookies; los detalles están en la Política de cookies."] },
-     { "h": "Legislación aplicable", "p": ["Este aviso legal se rige por la legislación española. Las controversias se someterán a los juzgados y tribunales que correspondan según la ley; si actúas como consumidor, a los de tu domicilio."] }
+     {
+      "h": "Datos del titular",
+      "p": [
+       "En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), se informa de los datos del titular de este sitio web:"
+      ],
+      "li": [
+       "Titular: {name}",
+       "NIF/NIE: {nif}",
+       "Domicilio: {address}",
+       "Correo electrónico: {email}",
+       "Teléfono: {phone}",
+       "Actividad: asesoría online de bienestar de animales de compañía"
+      ]
+     },
+     {
+      "h": "Objeto del sitio",
+      "p": [
+       "Este sitio web presenta los servicios de asesoría online de bienestar animal que presta la titular y facilita el contacto con ella.",
+       "La asesoría no sustituye la atención veterinaria. El diagnóstico y el tratamiento de enfermedades corresponden siempre a un veterinario."
+      ]
+     },
+     {
+      "h": "Condiciones de uso",
+      "p": [
+       "El acceso al sitio es gratuito y no requiere registro. Al navegar por él te comprometes a usarlo conforme a la ley, a la buena fe y a este aviso legal, y a no realizar acciones que puedan dañarlo o impedir que otras personas lo usen."
+      ]
+     },
+     {
+      "h": "Propiedad intelectual e industrial",
+      "p": [
+       "Los textos, el diseño y el código de este sitio pertenecen a la titular, salvo que se indique lo contrario. No se permite reproducirlos ni distribuirlos con fines comerciales sin su autorización previa.",
+       "Las fotografías proceden de Unsplash y se usan conforme a la licencia de Unsplash. Las tipografías Nunito, Playfair Display y Unbounded se distribuyen con la licencia SIL Open Font License."
+      ]
+     },
+     {
+      "h": "Responsabilidad",
+      "p": [
+       "La información del sitio es general y orientativa. La titular procura que sea correcta y esté actualizada, pero no responde de los daños derivados de un uso del sitio contrario a la ley o a este aviso legal, ni de interrupciones técnicas ajenas a su control.",
+       "Los enlaces a sitios de terceros se ofrecen solo como referencia. La titular no controla su contenido ni responde de él."
+      ]
+     },
+     {
+      "h": "Protección de datos y cookies",
+      "p": [
+       "El tratamiento de tus datos personales se explica en la Política de privacidad. Este sitio no utiliza cookies; los detalles están en la Política de cookies."
+      ]
+     },
+     {
+      "h": "Legislación aplicable",
+      "p": [
+       "Este aviso legal se rige por la legislación española. Las controversias se someterán a los juzgados y tribunales que correspondan según la ley; si actúas como consumidor, a los de tu domicilio."
+      ]
+     }
     ]
    },
    "privacy": {
     "title": "Política de privacidad",
     "desc": "Cómo se tratan tus datos personales cuando contactas o contratas una asesoría.",
     "blocks": [
-     { "h": "Responsable del tratamiento", "li": ["Responsable: {name}", "NIF/NIE: {nif}", "Domicilio: {address}", "Correo electrónico: {email}", "Teléfono: {phone}"] },
-     { "h": "Qué datos se tratan", "p": ["Solo los que tú facilitas al contactar o contratar un servicio:"], "li": ["Datos de contacto: nombre, teléfono, correo electrónico y nombre de usuario en aplicaciones de mensajería.", "Información sobre tu mascota y tu hogar: especie, edad, rutina, condiciones de vida y las fotos, vídeos o planos que decidas enviar. Estas imágenes pueden mostrar a personas o el interior de tu vivienda, así que envía solo lo necesario.", "Datos de facturación: nombre, NIF/NIE y dirección, cuando se emite una factura."], "p2": ["Al navegar por este sitio no se recogen datos personales mediante formularios, cookies ni herramientas de analítica."] },
-     { "h": "Finalidades y base legal", "li": ["Atender tus consultas y organizar la llamada gratuita. Base legal: aplicación de medidas precontractuales a petición tuya (art. 6.1.b RGPD).", "Prestar el servicio contratado: análisis, videollamada, plan por escrito y seguimiento. Base legal: ejecución del contrato (art. 6.1.b RGPD).", "Emitir facturas y cumplir las obligaciones fiscales y contables. Base legal: obligación legal (art. 6.1.c RGPD).", "Grabar una videollamada o publicar un caso. Base legal: tu consentimiento expreso, que puedes retirar en cualquier momento (art. 6.1.a RGPD). Los casos solo se publican con tu permiso por escrito."] },
-     { "h": "Plazo de conservación", "p": ["Los datos se conservan mientras dura la relación y, después, durante el tiempo necesario para atender posibles responsabilidades legales. Los datos de facturación se guardan durante los plazos que exige la normativa fiscal y mercantil.", "Las fotos y los vídeos se eliminan cuando dejan de ser necesarios para el servicio, o antes si lo pides."] },
-     { "h": "Servicios que se utilizan", "p": ["Los datos no se ceden a terceros, salvo obligación legal (por ejemplo, a la Agencia Tributaria). Para comunicarnos y prestar el servicio se utilizan estos proveedores:"], "li": ["WhatsApp (WhatsApp Ireland Limited, grupo Meta): mensajes, llamadas y archivos.", "Telegram: mensajes y archivos, solo si eliges este canal.", "Google (Google Ireland Limited): videollamadas con Google Meet y correo electrónico con Gmail.", "Zoom (Zoom Communications, Inc.): videollamadas.", "GitHub (GitHub, Inc.): alojamiento de este sitio web."], "p2": ["Tú eliges el canal de comunicación. Si prefieres no usar alguno de estos servicios, dímelo y buscamos otra opción."] },
-     { "h": "Transferencias internacionales", "p": ["Algunos de estos proveedores pueden tratar datos fuera del Espacio Económico Europeo. Google, Meta, Zoom y GitHub ofrecen garantías como la adhesión al Marco de Privacidad de Datos UE-EE. UU. o las cláusulas contractuales tipo de la Comisión Europea. Telegram trata los datos según su propia política de privacidad."] },
-     { "h": "Tus derechos", "p": ["Puedes acceder a tus datos, rectificarlos o suprimirlos, oponerte a su tratamiento, pedir su limitación o su portabilidad y retirar tu consentimiento en cualquier momento. Escribe a {email} indicando qué derecho quieres ejercer.", "Si consideras que tus datos no se tratan correctamente, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es)."] },
-     { "h": "Cuestionario online con IA", "p": ["El cuestionario online con inteligencia artificial todavía no está disponible. Antes de que se abra, esta política se actualizará con el proveedor y las condiciones del tratamiento, y al empezar el cuestionario verás un aviso de que las respuestas las procesa una IA."] },
-     { "h": "Menores de edad", "p": ["Los servicios se dirigen a personas mayores de edad. Si tienes menos de 14 años, no envíes datos personales sin el consentimiento de tus padres o tutores."] },
-     { "h": "Cambios en esta política", "p": ["Esta política puede actualizarse. La fecha de la versión vigente aparece al principio de la página."] }
+     {
+      "h": "Responsable del tratamiento",
+      "li": [
+       "Responsable: {name}",
+       "NIF/NIE: {nif}",
+       "Domicilio: {address}",
+       "Correo electrónico: {email}",
+       "Teléfono: {phone}"
+      ]
+     },
+     {
+      "h": "Qué datos se tratan",
+      "p": [
+       "Solo los que tú facilitas al contactar o contratar un servicio:"
+      ],
+      "li": [
+       "Datos de contacto: nombre, teléfono, correo electrónico y nombre de usuario en aplicaciones de mensajería.",
+       "Información sobre tu mascota y tu hogar: especie, edad, rutina, condiciones de vida y las fotos, vídeos o planos que decidas enviar. Estas imágenes pueden mostrar a personas o el interior de tu vivienda, así que envía solo lo necesario.",
+       "Datos de facturación: nombre, NIF/NIE y dirección, cuando se emite una factura.",
+       "Respuestas al cuestionario online, si decides usarlo: el nombre de tu mascota, un código de acceso y tus respuestas, incluidas las grabaciones de voz."
+      ],
+      "p2": [
+       "Al navegar por este sitio no se recogen datos personales mediante formularios, cookies ni herramientas de analítica."
+      ]
+     },
+     {
+      "h": "Finalidades y base legal",
+      "li": [
+       "Atender tus consultas y organizar la llamada gratuita. Base legal: aplicación de medidas precontractuales a petición tuya (art. 6.1.b RGPD).",
+       "Prestar el servicio contratado: análisis, videollamada, plan por escrito y seguimiento. Base legal: ejecución del contrato (art. 6.1.b RGPD).",
+       "Emitir facturas y cumplir las obligaciones fiscales y contables. Base legal: obligación legal (art. 6.1.c RGPD).",
+       "Procesar tus respuestas al cuestionario online para preparar la consulta. Base legal: tu consentimiento (art. 6.1.a RGPD), que puedes retirar en cualquier momento.",
+       "Grabar una videollamada o publicar un caso. Base legal: tu consentimiento expreso, que puedes retirar en cualquier momento (art. 6.1.a RGPD). Los casos solo se publican con tu permiso por escrito."
+      ]
+     },
+     {
+      "h": "Plazo de conservación",
+      "p": [
+       "Los datos se conservan mientras dura la relación y, después, durante el tiempo necesario para atender posibles responsabilidades legales. Los datos de facturación se guardan durante los plazos que exige la normativa fiscal y mercantil.",
+       "Las fotos y los vídeos se eliminan cuando dejan de ser necesarios para el servicio, o antes si lo pides."
+      ]
+     },
+     {
+      "h": "Servicios que se utilizan",
+      "p": [
+       "Los datos no se ceden a terceros, salvo obligación legal (por ejemplo, a la Agencia Tributaria). Para comunicarnos y prestar el servicio se utilizan estos proveedores:"
+      ],
+      "li": [
+       "WhatsApp (WhatsApp Ireland Limited, grupo Meta): mensajes, llamadas y archivos.",
+       "Telegram: mensajes y archivos, solo si eliges este canal.",
+       "Google (Google Ireland Limited): videollamadas con Google Meet y correo electrónico con Gmail.",
+       "Zoom (Zoom Communications, Inc.): videollamadas.",
+       "GitHub (GitHub, Inc.): alojamiento de este sitio web.",
+       "DigitalOcean (DigitalOcean, LLC): servidor del cuestionario online, ubicado en la Unión Europea.",
+       "{ai}: procesamiento con inteligencia artificial de las respuestas del cuestionario."
+      ],
+      "p2": [
+       "Tú eliges el canal de comunicación. Si prefieres no usar alguno de estos servicios, dímelo y buscamos otra opción."
+      ]
+     },
+     {
+      "h": "Transferencias internacionales",
+      "p": [
+       "Algunos de estos proveedores pueden tratar datos fuera del Espacio Económico Europeo. Google, Meta, Zoom, GitHub, DigitalOcean y {ai} ofrecen garantías como la adhesión al Marco de Privacidad de Datos UE-EE. UU. o las cláusulas contractuales tipo de la Comisión Europea. Telegram trata los datos según su propia política de privacidad."
+      ]
+     },
+     {
+      "h": "Tus derechos",
+      "p": [
+       "Puedes acceder a tus datos, rectificarlos o suprimirlos, oponerte a su tratamiento, pedir su limitación o su portabilidad y retirar tu consentimiento en cualquier momento. Escribe a {email} indicando qué derecho quieres ejercer.",
+       "Si consideras que tus datos no se tratan correctamente, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es)."
+      ]
+     },
+     {
+      "h": "Cuestionario online con IA",
+      "p": [
+       "El cuestionario online funciona en un sitio aparte ({quiz}) y su uso es voluntario. No pide tu nombre, teléfono ni correo: te registras con el nombre de tu mascota y un código.",
+       "Tus respuestas, incluidas las grabaciones de voz si eliges responder hablando, se guardan en un servidor de DigitalOcean en la Unión Europea y se procesan con un servicio de inteligencia artificial ({ai}) que las ordena en una ficha. La IA no diagnostica ni toma decisiones sobre ti o tu mascota: las recomendaciones las prepara y revisa la titular.",
+       "Puedes pedir que se borren tus respuestas en cualquier momento escribiendo a {email}."
+      ]
+     },
+     {
+      "h": "Menores de edad",
+      "p": [
+       "Los servicios se dirigen a personas mayores de edad. Si tienes menos de 14 años, no envíes datos personales sin el consentimiento de tus padres o tutores."
+      ]
+     },
+     {
+      "h": "Cambios en esta política",
+      "p": [
+       "Esta política puede actualizarse. La fecha de la versión vigente aparece al principio de la página."
+      ]
+     }
     ]
    },
    "cookies": {
     "title": "Política de cookies",
     "desc": "Este sitio no utiliza cookies ni guarda información en tu navegador.",
     "blocks": [
-     { "h": "Qué son las cookies", "p": ["Las cookies son pequeños archivos que un sitio web guarda en tu navegador para recordar información sobre tu visita. El artículo 22.2 de la LSSI-CE obliga a informar sobre ellas y a pedir tu consentimiento antes de instalarlas, salvo que sean estrictamente necesarias."] },
-     { "h": "Cookies que usa este sitio", "p": ["Ninguna. Este sitio no instala cookies propias ni de terceros, no utiliza herramientas de analítica ni de publicidad y no guarda información en el almacenamiento local de tu navegador. Las tipografías y las imágenes se cargan desde el propio sitio, sin conexiones a servicios externos.", "Por eso no verás ningún aviso de cookies."] },
-     { "h": "Idioma", "p": ["El idioma que eliges se indica en la dirección de la página (por ejemplo, ?lang=ru) y no se guarda en tu dispositivo."] },
-     { "h": "Alojamiento", "p": ["El sitio está alojado en GitHub Pages. GitHub puede registrar la dirección IP de las visitas en sus servidores por motivos de seguridad, sin instalar cookies en tu navegador. Puedes consultar la declaración de privacidad de GitHub en docs.github.com."] },
-     { "h": "Cambios", "p": ["Si en el futuro se añaden cookies que no sean estrictamente necesarias, se pedirá tu consentimiento antes de instalarlas y esta política se actualizará. Puedes bloquear o borrar las cookies en cualquier momento desde la configuración de tu navegador."] }
+     {
+      "h": "Qué son las cookies",
+      "p": [
+       "Las cookies son pequeños archivos que un sitio web guarda en tu navegador para recordar información sobre tu visita. El artículo 22.2 de la LSSI-CE obliga a informar sobre ellas y a pedir tu consentimiento antes de instalarlas, salvo que sean estrictamente necesarias."
+      ]
+     },
+     {
+      "h": "Cookies que usa este sitio",
+      "p": [
+       "Ninguna. Este sitio no instala cookies propias ni de terceros, no utiliza herramientas de analítica ni de publicidad y no guarda información en el almacenamiento local de tu navegador. Las tipografías y las imágenes se cargan desde el propio sitio, sin conexiones a servicios externos.",
+       "Por eso no verás ningún aviso de cookies."
+      ]
+     },
+     {
+      "h": "Idioma",
+      "p": [
+       "El idioma que eliges se indica en la dirección de la página (por ejemplo, ?lang=ru) y no se guarda en tu dispositivo."
+      ]
+     },
+     {
+      "h": "Alojamiento",
+      "p": [
+       "El sitio está alojado en GitHub Pages. GitHub puede registrar la dirección IP de las visitas en sus servidores por motivos de seguridad, sin instalar cookies en tu navegador. Puedes consultar la declaración de privacidad de GitHub en docs.github.com."
+      ]
+     },
+     {
+      "h": "Cuestionario online",
+      "p": [
+       "El cuestionario funciona en otro sitio web ({quiz}). Para mantener tu sesión iniciada puede usar cookies técnicas, que son estrictamente necesarias y no requieren consentimiento."
+      ]
+     },
+     {
+      "h": "Cambios",
+      "p": [
+       "Si en el futuro se añaden cookies que no sean estrictamente necesarias, se pedirá tu consentimiento antes de instalarlas y esta política se actualizará. Puedes bloquear o borrar las cookies en cualquier momento desde la configuración de tu navegador."
+      ]
+     }
     ]
    }
   }
@@ -59,40 +220,201 @@
     "title": "Правовая информация",
     "desc": "Сведения о владельце сайта и условия его использования.",
     "blocks": [
-     { "h": "Сведения о владельце сайта", "p": ["В соответствии со статьёй 10 Закона Испании 34/2002 от 11 июля об услугах информационного общества и электронной торговле (LSSI-CE) сообщаем сведения о владельце сайта:"], "li": ["Владелец: {name}", "NIF/NIE: {nif}", "Адрес: {address}", "Электронная почта: {email}", "Телефон: {phone}", "Деятельность: онлайн-консультации по благополучию домашних животных"] },
-     { "h": "Назначение сайта", "p": ["Сайт рассказывает об онлайн-консультациях по благополучию животных, которые проводит владелица, и помогает с ней связаться.", "Консультации не заменяют ветеринарную помощь. Диагностику и лечение заболеваний всегда проводит ветеринар."] },
-     { "h": "Условия использования", "p": ["Доступ к сайту бесплатный и не требует регистрации. Пользуясь сайтом, вы обязуетесь соблюдать закон, принцип добросовестности и это уведомление и не совершать действий, которые могут повредить сайту или помешать другим им пользоваться."] },
-     { "h": "Интеллектуальная собственность", "p": ["Тексты, дизайн и код сайта принадлежат владелице, если не указано иное. Их нельзя воспроизводить и распространять в коммерческих целях без её предварительного разрешения.", "Фотографии взяты с Unsplash и используются по лицензии Unsplash. Шрифты Nunito, Playfair Display и Unbounded распространяются по лицензии SIL Open Font License."] },
-     { "h": "Ответственность", "p": ["Информация на сайте носит общий и ознакомительный характер. Владелица старается, чтобы она была точной и актуальной, но не отвечает за ущерб от использования сайта в нарушение закона или этого уведомления, а также за технические сбои вне её контроля.", "Ссылки на сторонние сайты приводятся только для справки. Владелица не контролирует их содержание и не несёт за него ответственности."] },
-     { "h": "Персональные данные и cookies", "p": ["Как обрабатываются ваши персональные данные, описано в политике конфиденциальности. Сайт не использует cookies, подробности — в политике cookies."] },
-     { "h": "Применимое право", "p": ["Это уведомление регулируется законодательством Испании. Споры рассматриваются судами, определёнными законом; если вы выступаете как потребитель — судами по месту вашего жительства."] }
+     {
+      "h": "Сведения о владельце сайта",
+      "p": [
+       "В соответствии со статьёй 10 Закона Испании 34/2002 от 11 июля об услугах информационного общества и электронной торговле (LSSI-CE) сообщаем сведения о владельце сайта:"
+      ],
+      "li": [
+       "Владелец: {name}",
+       "NIF/NIE: {nif}",
+       "Адрес: {address}",
+       "Электронная почта: {email}",
+       "Телефон: {phone}",
+       "Деятельность: онлайн-консультации по благополучию домашних животных"
+      ]
+     },
+     {
+      "h": "Назначение сайта",
+      "p": [
+       "Сайт рассказывает об онлайн-консультациях по благополучию животных, которые проводит владелица, и помогает с ней связаться.",
+       "Консультации не заменяют ветеринарную помощь. Диагностику и лечение заболеваний всегда проводит ветеринар."
+      ]
+     },
+     {
+      "h": "Условия использования",
+      "p": [
+       "Доступ к сайту бесплатный и не требует регистрации. Пользуясь сайтом, вы обязуетесь соблюдать закон, принцип добросовестности и это уведомление и не совершать действий, которые могут повредить сайту или помешать другим им пользоваться."
+      ]
+     },
+     {
+      "h": "Интеллектуальная собственность",
+      "p": [
+       "Тексты, дизайн и код сайта принадлежат владелице, если не указано иное. Их нельзя воспроизводить и распространять в коммерческих целях без её предварительного разрешения.",
+       "Фотографии взяты с Unsplash и используются по лицензии Unsplash. Шрифты Nunito, Playfair Display и Unbounded распространяются по лицензии SIL Open Font License."
+      ]
+     },
+     {
+      "h": "Ответственность",
+      "p": [
+       "Информация на сайте носит общий и ознакомительный характер. Владелица старается, чтобы она была точной и актуальной, но не отвечает за ущерб от использования сайта в нарушение закона или этого уведомления, а также за технические сбои вне её контроля.",
+       "Ссылки на сторонние сайты приводятся только для справки. Владелица не контролирует их содержание и не несёт за него ответственности."
+      ]
+     },
+     {
+      "h": "Персональные данные и cookies",
+      "p": [
+       "Как обрабатываются ваши персональные данные, описано в политике конфиденциальности. Сайт не использует cookies, подробности — в политике cookies."
+      ]
+     },
+     {
+      "h": "Применимое право",
+      "p": [
+       "Это уведомление регулируется законодательством Испании. Споры рассматриваются судами, определёнными законом; если вы выступаете как потребитель — судами по месту вашего жительства."
+      ]
+     }
     ]
    },
    "privacy": {
     "title": "Политика конфиденциальности",
     "desc": "Как обрабатываются ваши персональные данные, когда вы обращаетесь за консультацией.",
     "blocks": [
-     { "h": "Ответственный за обработку", "li": ["Ответственный: {name}", "NIF/NIE: {nif}", "Адрес: {address}", "Электронная почта: {email}", "Телефон: {phone}"] },
-     { "h": "Какие данные обрабатываются", "p": ["Только те, что вы сами сообщаете, когда связываетесь со мной или заказываете услугу:"], "li": ["Контактные данные: имя, телефон, электронная почта и имя пользователя в мессенджерах.", "Сведения о питомце и доме: вид, возраст, режим, условия содержания, а также фото, видео и планы квартиры, которые вы решите прислать. На снимках могут быть люди или обстановка вашего дома, поэтому присылайте только необходимое.", "Данные для счёта: имя, NIF/NIE и адрес, если выставляется factura."], "p2": ["При просмотре сайта персональные данные не собираются: здесь нет форм, cookies и инструментов аналитики."] },
-     { "h": "Цели и правовые основания", "li": ["Ответить на ваш запрос и назначить бесплатный звонок. Основание: действия до заключения договора по вашей просьбе (ст. 6.1.b RGPD).", "Оказать заказанную услугу: анализ, видеовстреча, письменный план и сопровождение. Основание: исполнение договора (ст. 6.1.b RGPD).", "Выставить счёт и выполнить налоговые и бухгалтерские обязанности. Основание: требование закона (ст. 6.1.c RGPD).", "Записать видеовстречу или опубликовать разбор случая. Основание: ваше явное согласие, которое можно отозвать в любой момент (ст. 6.1.a RGPD). Разборы публикуются только с вашего письменного согласия."] },
-     { "h": "Сроки хранения", "p": ["Данные хранятся, пока продолжается работа, а затем столько, сколько нужно на случай возможных юридических претензий. Данные для счетов хранятся в сроки, установленные налоговым и торговым законодательством.", "Фото и видео удаляются, когда они больше не нужны для услуги, или раньше — по вашей просьбе."] },
-     { "h": "Какие сервисы используются", "p": ["Данные не передаются третьим лицам, кроме случаев, предусмотренных законом (например, налоговой службе Испании). Для связи и оказания услуги используются следующие сервисы:"], "li": ["WhatsApp (WhatsApp Ireland Limited, группа Meta): сообщения, звонки и файлы.", "Telegram: сообщения и файлы, только если вы выбрали этот канал.", "Google (Google Ireland Limited): видеовстречи в Google Meet и электронная почта Gmail.", "Zoom (Zoom Communications, Inc.): видеовстречи.", "GitHub (GitHub, Inc.): хостинг этого сайта."], "p2": ["Канал связи выбираете вы. Если не хотите пользоваться каким-то из этих сервисов, скажите, и мы найдём другой вариант."] },
-     { "h": "Передача данных за пределы ЕЭЗ", "p": ["Некоторые из этих сервисов могут обрабатывать данные за пределами Европейской экономической зоны. Google, Meta, Zoom и GitHub предоставляют гарантии, например участие в Рамочной программе ЕС–США по защите данных (Data Privacy Framework) или стандартные договорные положения Европейской комиссии. Telegram обрабатывает данные по собственной политике конфиденциальности."] },
-     { "h": "Ваши права", "p": ["Вы можете получить доступ к своим данным, исправить или удалить их, возразить против обработки, потребовать её ограничения или переноса данных, а также в любой момент отозвать согласие. Напишите на {email} и укажите, каким правом хотите воспользоваться.", "Если вы считаете, что ваши данные обрабатываются неправильно, вы можете подать жалобу в Агентство по защите данных Испании (www.aepd.es)."] },
-     { "h": "Онлайн-опросник с ИИ", "p": ["Онлайн-опросник с искусственным интеллектом пока не работает. До его запуска эта политика будет дополнена сведениями о провайдере и условиях обработки, а перед началом опроса вы увидите предупреждение о том, что ответы обрабатывает ИИ."] },
-     { "h": "Несовершеннолетние", "p": ["Услуги предназначены для совершеннолетних. Если вам меньше 14 лет, не присылайте персональные данные без согласия родителей или опекунов."] },
-     { "h": "Изменения политики", "p": ["Политика может обновляться. Дата действующей версии указана в начале страницы."] }
+     {
+      "h": "Ответственный за обработку",
+      "li": [
+       "Ответственный: {name}",
+       "NIF/NIE: {nif}",
+       "Адрес: {address}",
+       "Электронная почта: {email}",
+       "Телефон: {phone}"
+      ]
+     },
+     {
+      "h": "Какие данные обрабатываются",
+      "p": [
+       "Только те, что вы сами сообщаете, когда связываетесь со мной или заказываете услугу:"
+      ],
+      "li": [
+       "Контактные данные: имя, телефон, электронная почта и имя пользователя в мессенджерах.",
+       "Сведения о питомце и доме: вид, возраст, режим, условия содержания, а также фото, видео и планы квартиры, которые вы решите прислать. На снимках могут быть люди или обстановка вашего дома, поэтому присылайте только необходимое.",
+       "Данные для счёта: имя, NIF/NIE и адрес, если выставляется factura.",
+       "Ответы в онлайн-опроснике, если вы решите им воспользоваться: кличка питомца, код доступа и ваши ответы, включая голосовые записи."
+      ],
+      "p2": [
+       "При просмотре сайта персональные данные не собираются: здесь нет форм, cookies и инструментов аналитики."
+      ]
+     },
+     {
+      "h": "Цели и правовые основания",
+      "li": [
+       "Ответить на ваш запрос и назначить бесплатный звонок. Основание: действия до заключения договора по вашей просьбе (ст. 6.1.b RGPD).",
+       "Оказать заказанную услугу: анализ, видеовстреча, письменный план и сопровождение. Основание: исполнение договора (ст. 6.1.b RGPD).",
+       "Выставить счёт и выполнить налоговые и бухгалтерские обязанности. Основание: требование закона (ст. 6.1.c RGPD).",
+       "Обработать ответы в онлайн-опроснике, чтобы подготовиться к консультации. Основание: ваше согласие (ст. 6.1.a RGPD), которое можно отозвать в любой момент.",
+       "Записать видеовстречу или опубликовать разбор случая. Основание: ваше явное согласие, которое можно отозвать в любой момент (ст. 6.1.a RGPD). Разборы публикуются только с вашего письменного согласия."
+      ]
+     },
+     {
+      "h": "Сроки хранения",
+      "p": [
+       "Данные хранятся, пока продолжается работа, а затем столько, сколько нужно на случай возможных юридических претензий. Данные для счетов хранятся в сроки, установленные налоговым и торговым законодательством.",
+       "Фото и видео удаляются, когда они больше не нужны для услуги, или раньше — по вашей просьбе."
+      ]
+     },
+     {
+      "h": "Какие сервисы используются",
+      "p": [
+       "Данные не передаются третьим лицам, кроме случаев, предусмотренных законом (например, налоговой службе Испании). Для связи и оказания услуги используются следующие сервисы:"
+      ],
+      "li": [
+       "WhatsApp (WhatsApp Ireland Limited, группа Meta): сообщения, звонки и файлы.",
+       "Telegram: сообщения и файлы, только если вы выбрали этот канал.",
+       "Google (Google Ireland Limited): видеовстречи в Google Meet и электронная почта Gmail.",
+       "Zoom (Zoom Communications, Inc.): видеовстречи.",
+       "GitHub (GitHub, Inc.): хостинг этого сайта.",
+       "DigitalOcean (DigitalOcean, LLC): сервер онлайн-опросника в Европейском союзе.",
+       "{ai}: обработка ответов опросника с помощью искусственного интеллекта."
+      ],
+      "p2": [
+       "Канал связи выбираете вы. Если не хотите пользоваться каким-то из этих сервисов, скажите, и мы найдём другой вариант."
+      ]
+     },
+     {
+      "h": "Передача данных за пределы ЕЭЗ",
+      "p": [
+       "Некоторые из этих сервисов могут обрабатывать данные за пределами Европейской экономической зоны. Google, Meta, Zoom, GitHub, DigitalOcean и {ai} предоставляют гарантии, например участие в Рамочной программе ЕС–США по защите данных (Data Privacy Framework) или стандартные договорные положения Европейской комиссии. Telegram обрабатывает данные по собственной политике конфиденциальности."
+      ]
+     },
+     {
+      "h": "Ваши права",
+      "p": [
+       "Вы можете получить доступ к своим данным, исправить или удалить их, возразить против обработки, потребовать её ограничения или переноса данных, а также в любой момент отозвать согласие. Напишите на {email} и укажите, каким правом хотите воспользоваться.",
+       "Если вы считаете, что ваши данные обрабатываются неправильно, вы можете подать жалобу в Агентство по защите данных Испании (www.aepd.es)."
+      ]
+     },
+     {
+      "h": "Онлайн-опросник с ИИ",
+      "p": [
+       "Онлайн-опросник работает на отдельном сайте ({quiz}), пользоваться им необязательно. Имя, телефон и почту он не спрашивает: вы регистрируетесь с кличкой питомца и кодом.",
+       "Ваши ответы, включая голосовые записи, если вы отвечаете голосом, хранятся на сервере DigitalOcean в Европейском союзе и обрабатываются сервисом искусственного интеллекта ({ai}), который собирает их в анкету. ИИ не ставит диагнозов и не принимает решений о вас или вашем питомце: рекомендации готовит и проверяет владелица сайта.",
+       "Вы можете в любой момент попросить удалить ваши ответы, написав на {email}."
+      ]
+     },
+     {
+      "h": "Несовершеннолетние",
+      "p": [
+       "Услуги предназначены для совершеннолетних. Если вам меньше 14 лет, не присылайте персональные данные без согласия родителей или опекунов."
+      ]
+     },
+     {
+      "h": "Изменения политики",
+      "p": [
+       "Политика может обновляться. Дата действующей версии указана в начале страницы."
+      ]
+     }
     ]
    },
    "cookies": {
     "title": "Политика cookies",
     "desc": "Сайт не использует cookies и ничего не сохраняет в вашем браузере.",
     "blocks": [
-     { "h": "Что такое cookies", "p": ["Cookies — это небольшие файлы, которые сайт сохраняет в браузере, чтобы запомнить сведения о посещении. Статья 22.2 LSSI-CE требует сообщать о них и спрашивать согласие до их установки, кроме строго необходимых."] },
-     { "h": "Какие cookies использует сайт", "p": ["Никаких. Сайт не устанавливает собственные или сторонние cookies, не использует инструменты аналитики и рекламы и не сохраняет данные в локальном хранилище браузера. Шрифты и изображения загружаются с самого сайта, без обращения к внешним сервисам.", "Поэтому уведомление о cookies здесь не показывается."] },
-     { "h": "Язык", "p": ["Выбранный язык указывается в адресе страницы (например, ?lang=ru) и не сохраняется на вашем устройстве."] },
-     { "h": "Хостинг", "p": ["Сайт размещён на GitHub Pages. GitHub может записывать IP-адреса посетителей на своих серверах в целях безопасности, не устанавливая cookies в браузере. Заявление GitHub о конфиденциальности опубликовано на docs.github.com."] },
-     { "h": "Изменения", "p": ["Если на сайте появятся cookies, которые не являются строго необходимыми, перед их установкой будет запрошено ваше согласие, а эта политика будет обновлена. Вы в любой момент можете заблокировать или удалить cookies в настройках браузера."] }
+     {
+      "h": "Что такое cookies",
+      "p": [
+       "Cookies — это небольшие файлы, которые сайт сохраняет в браузере, чтобы запомнить сведения о посещении. Статья 22.2 LSSI-CE требует сообщать о них и спрашивать согласие до их установки, кроме строго необходимых."
+      ]
+     },
+     {
+      "h": "Какие cookies использует сайт",
+      "p": [
+       "Никаких. Сайт не устанавливает собственные или сторонние cookies, не использует инструменты аналитики и рекламы и не сохраняет данные в локальном хранилище браузера. Шрифты и изображения загружаются с самого сайта, без обращения к внешним сервисам.",
+       "Поэтому уведомление о cookies здесь не показывается."
+      ]
+     },
+     {
+      "h": "Язык",
+      "p": [
+       "Выбранный язык указывается в адресе страницы (например, ?lang=ru) и не сохраняется на вашем устройстве."
+      ]
+     },
+     {
+      "h": "Хостинг",
+      "p": [
+       "Сайт размещён на GitHub Pages. GitHub может записывать IP-адреса посетителей на своих серверах в целях безопасности, не устанавливая cookies в браузере. Заявление GitHub о конфиденциальности опубликовано на docs.github.com."
+      ]
+     },
+     {
+      "h": "Онлайн-опросник",
+      "p": [
+       "Опросник работает на отдельном сайте ({quiz}). Чтобы вы оставались в учётной записи, он может использовать технические cookies: они строго необходимы и не требуют согласия."
+      ]
+     },
+     {
+      "h": "Изменения",
+      "p": [
+       "Если на сайте появятся cookies, которые не являются строго необходимыми, перед их установкой будет запрошено ваше согласие, а эта политика будет обновлена. Вы в любой момент можете заблокировать или удалить cookies в настройках браузера."
+      ]
+     }
     ]
    }
   }
@@ -108,40 +430,201 @@
     "title": "Yasal uyarı",
     "desc": "Site sahibinin bilgileri ve bu web sitesinin kullanım koşulları.",
     "blocks": [
-     { "h": "Site sahibinin bilgileri", "p": ["Bilgi toplumu hizmetleri ve elektronik ticarete ilişkin 11 Temmuz 2002 tarihli ve 34/2002 sayılı İspanyol Kanunu'nun (LSSI-CE) 10. maddesi uyarınca bu web sitesinin sahibine ait bilgiler aşağıdadır:"], "li": ["Site sahibi: {name}", "NIF/NIE: {nif}", "Adres: {address}", "E-posta: {email}", "Telefon: {phone}", "Faaliyet: evcil hayvan refahı konusunda online danışmanlık"] },
-     { "h": "Sitenin amacı", "p": ["Bu site, site sahibinin sunduğu online hayvan refahı danışmanlığı hizmetlerini tanıtır ve onunla iletişim kurmayı kolaylaştırır.", "Danışmanlık veteriner hizmetinin yerini tutmaz. Hastalıkların teşhis ve tedavisi her zaman veterinerin işidir."] },
-     { "h": "Kullanım koşulları", "p": ["Siteye erişim ücretsizdir ve kayıt gerektirmez. Siteyi kullanırken yasaya, dürüstlük kuralına ve bu yasal uyarıya uymayı, siteye zarar verebilecek veya başkalarının kullanımını engelleyebilecek eylemlerden kaçınmayı kabul edersiniz."] },
-     { "h": "Fikri ve sınai mülkiyet", "p": ["Aksi belirtilmedikçe sitenin metinleri, tasarımı ve kodu site sahibine aittir. Önceden izin alınmadan ticari amaçla çoğaltılamaz ve dağıtılamaz.", "Fotoğraflar Unsplash'ten alınmıştır ve Unsplash lisansına uygun olarak kullanılmaktadır. Nunito, Playfair Display ve Unbounded yazı tipleri SIL Open Font License ile dağıtılmaktadır."] },
-     { "h": "Sorumluluk", "p": ["Sitedeki bilgiler genel ve yol gösterici niteliktedir. Site sahibi bilgilerin doğru ve güncel olmasına özen gösterir; ancak sitenin yasaya veya bu uyarıya aykırı kullanımından doğan zararlardan ve kendi kontrolü dışındaki teknik kesintilerden sorumlu değildir.", "Üçüncü taraf sitelere verilen bağlantılar yalnızca bilgi amaçlıdır. Site sahibi bu sitelerin içeriğini kontrol etmez ve bundan sorumlu değildir."] },
-     { "h": "Kişisel veriler ve çerezler", "p": ["Kişisel verilerinizin nasıl işlendiği gizlilik politikasında açıklanmıştır. Bu site çerez kullanmaz; ayrıntılar çerez politikasındadır."] },
-     { "h": "Uygulanacak hukuk", "p": ["Bu yasal uyarı İspanyol hukukuna tabidir. Uyuşmazlıklarda yasaya göre yetkili mahkemeler, tüketici olarak hareket ediyorsanız yerleşim yerinizdeki mahkemeler yetkilidir."] }
+     {
+      "h": "Site sahibinin bilgileri",
+      "p": [
+       "Bilgi toplumu hizmetleri ve elektronik ticarete ilişkin 11 Temmuz 2002 tarihli ve 34/2002 sayılı İspanyol Kanunu'nun (LSSI-CE) 10. maddesi uyarınca bu web sitesinin sahibine ait bilgiler aşağıdadır:"
+      ],
+      "li": [
+       "Site sahibi: {name}",
+       "NIF/NIE: {nif}",
+       "Adres: {address}",
+       "E-posta: {email}",
+       "Telefon: {phone}",
+       "Faaliyet: evcil hayvan refahı konusunda online danışmanlık"
+      ]
+     },
+     {
+      "h": "Sitenin amacı",
+      "p": [
+       "Bu site, site sahibinin sunduğu online hayvan refahı danışmanlığı hizmetlerini tanıtır ve onunla iletişim kurmayı kolaylaştırır.",
+       "Danışmanlık veteriner hizmetinin yerini tutmaz. Hastalıkların teşhis ve tedavisi her zaman veterinerin işidir."
+      ]
+     },
+     {
+      "h": "Kullanım koşulları",
+      "p": [
+       "Siteye erişim ücretsizdir ve kayıt gerektirmez. Siteyi kullanırken yasaya, dürüstlük kuralına ve bu yasal uyarıya uymayı, siteye zarar verebilecek veya başkalarının kullanımını engelleyebilecek eylemlerden kaçınmayı kabul edersiniz."
+      ]
+     },
+     {
+      "h": "Fikri ve sınai mülkiyet",
+      "p": [
+       "Aksi belirtilmedikçe sitenin metinleri, tasarımı ve kodu site sahibine aittir. Önceden izin alınmadan ticari amaçla çoğaltılamaz ve dağıtılamaz.",
+       "Fotoğraflar Unsplash'ten alınmıştır ve Unsplash lisansına uygun olarak kullanılmaktadır. Nunito, Playfair Display ve Unbounded yazı tipleri SIL Open Font License ile dağıtılmaktadır."
+      ]
+     },
+     {
+      "h": "Sorumluluk",
+      "p": [
+       "Sitedeki bilgiler genel ve yol gösterici niteliktedir. Site sahibi bilgilerin doğru ve güncel olmasına özen gösterir; ancak sitenin yasaya veya bu uyarıya aykırı kullanımından doğan zararlardan ve kendi kontrolü dışındaki teknik kesintilerden sorumlu değildir.",
+       "Üçüncü taraf sitelere verilen bağlantılar yalnızca bilgi amaçlıdır. Site sahibi bu sitelerin içeriğini kontrol etmez ve bundan sorumlu değildir."
+      ]
+     },
+     {
+      "h": "Kişisel veriler ve çerezler",
+      "p": [
+       "Kişisel verilerinizin nasıl işlendiği gizlilik politikasında açıklanmıştır. Bu site çerez kullanmaz; ayrıntılar çerez politikasındadır."
+      ]
+     },
+     {
+      "h": "Uygulanacak hukuk",
+      "p": [
+       "Bu yasal uyarı İspanyol hukukuna tabidir. Uyuşmazlıklarda yasaya göre yetkili mahkemeler, tüketici olarak hareket ediyorsanız yerleşim yerinizdeki mahkemeler yetkilidir."
+      ]
+     }
     ]
    },
    "privacy": {
     "title": "Gizlilik politikası",
     "desc": "Danışmanlık için iletişime geçtiğinizde kişisel verilerinizin nasıl işlendiği.",
     "blocks": [
-     { "h": "Veri sorumlusu", "li": ["Sorumlu: {name}", "NIF/NIE: {nif}", "Adres: {address}", "E-posta: {email}", "Telefon: {phone}"] },
-     { "h": "Hangi veriler işlenir", "p": ["Yalnızca iletişime geçtiğinizde veya bir hizmet satın aldığınızda kendi verdiğiniz bilgiler:"], "li": ["İletişim bilgileri: ad, telefon, e-posta ve mesajlaşma uygulamalarındaki kullanıcı adı.", "Evcil hayvanınız ve eviniz hakkında bilgiler: tür, yaş, günlük düzen, yaşam koşulları ve göndermeyi seçtiğiniz fotoğraf, video veya ev planları. Bu görüntülerde kişiler ya da evinizin içi görünebilir; yalnızca gerekenleri gönderin.", "Fatura bilgileri: fatura (factura) düzenlendiğinde ad, NIF/NIE ve adres."], "p2": ["Bu sitede gezinirken form, çerez veya analiz aracı aracılığıyla kişisel veri toplanmaz."] },
-     { "h": "Amaçlar ve hukuki dayanak", "li": ["Sorularınızı yanıtlamak ve ücretsiz görüşmeyi ayarlamak. Dayanak: talebiniz üzerine sözleşme öncesi adımlar (RGPD md. 6.1.b).", "Satın alınan hizmeti sunmak: analiz, görüntülü görüşme, yazılı plan ve takip. Dayanak: sözleşmenin ifası (RGPD md. 6.1.b).", "Fatura düzenlemek ve vergi ile muhasebe yükümlülüklerini yerine getirmek. Dayanak: yasal yükümlülük (RGPD md. 6.1.c).", "Bir görüntülü görüşmeyi kaydetmek veya bir vakayı yayımlamak. Dayanak: istediğiniz zaman geri alabileceğiniz açık rızanız (RGPD md. 6.1.a). Vakalar yalnızca yazılı izninizle yayımlanır."] },
-     { "h": "Saklama süresi", "p": ["Veriler ilişki sürdüğü müddetçe ve ardından olası yasal sorumluluklar için gereken süre boyunca saklanır. Fatura bilgileri vergi ve ticaret mevzuatının öngördüğü süreler boyunca tutulur.", "Fotoğraf ve videolar hizmet için artık gerekli olmadığında ya da siz talep ederseniz daha önce silinir."] },
-     { "h": "Kullanılan hizmetler", "p": ["Yasal bir yükümlülük olmadıkça (örneğin İspanya vergi idaresine) veriler üçüncü kişilere aktarılmaz. İletişim ve hizmet için şu sağlayıcılar kullanılır:"], "li": ["WhatsApp (WhatsApp Ireland Limited, Meta grubu): mesajlar, aramalar ve dosyalar.", "Telegram: yalnızca bu kanalı seçerseniz mesajlar ve dosyalar.", "Google (Google Ireland Limited): Google Meet ile görüntülü görüşmeler ve Gmail ile e-posta.", "Zoom (Zoom Communications, Inc.): görüntülü görüşmeler.", "GitHub (GitHub, Inc.): bu web sitesinin barındırılması."], "p2": ["İletişim kanalını siz seçersiniz. Bu hizmetlerden birini kullanmak istemezseniz söyleyin, başka bir seçenek buluruz."] },
-     { "h": "Uluslararası aktarımlar", "p": ["Bu sağlayıcıların bazıları verileri Avrupa Ekonomik Alanı dışında işleyebilir. Google, Meta, Zoom ve GitHub, AB-ABD Veri Gizliliği Çerçevesi'ne katılım veya Avrupa Komisyonu'nun standart sözleşme maddeleri gibi güvenceler sunar. Telegram verileri kendi gizlilik politikasına göre işler."] },
-     { "h": "Haklarınız", "p": ["Verilerinize erişebilir, bunları düzeltebilir veya sildirebilir, işlenmesine itiraz edebilir, işlemenin kısıtlanmasını veya verilerin taşınmasını isteyebilir ve rızanızı istediğiniz zaman geri alabilirsiniz. Hangi hakkı kullanmak istediğinizi belirterek {email} adresine yazın.", "Verilerinizin doğru işlenmediğini düşünüyorsanız İspanya Veri Koruma Kurumu'na (www.aepd.es) şikâyette bulunabilirsiniz."] },
-     { "h": "Yapay zekâ destekli online anket", "p": ["Yapay zekâ destekli online anket henüz kullanılmamaktadır. Açılmadan önce bu politika sağlayıcı ve işleme koşullarıyla güncellenecek; ankete başlarken yanıtlarınızın yapay zekâ ile işlendiğine dair bir bilgilendirme göreceksiniz."] },
-     { "h": "Reşit olmayanlar", "p": ["Hizmetler reşit kişilere yöneliktir. 14 yaşından küçükseniz anne, baba veya vasinizin onayı olmadan kişisel veri göndermeyin."] },
-     { "h": "Bu politikadaki değişiklikler", "p": ["Bu politika güncellenebilir. Geçerli sürümün tarihi sayfanın başında yer alır."] }
+     {
+      "h": "Veri sorumlusu",
+      "li": [
+       "Sorumlu: {name}",
+       "NIF/NIE: {nif}",
+       "Adres: {address}",
+       "E-posta: {email}",
+       "Telefon: {phone}"
+      ]
+     },
+     {
+      "h": "Hangi veriler işlenir",
+      "p": [
+       "Yalnızca iletişime geçtiğinizde veya bir hizmet satın aldığınızda kendi verdiğiniz bilgiler:"
+      ],
+      "li": [
+       "İletişim bilgileri: ad, telefon, e-posta ve mesajlaşma uygulamalarındaki kullanıcı adı.",
+       "Evcil hayvanınız ve eviniz hakkında bilgiler: tür, yaş, günlük düzen, yaşam koşulları ve göndermeyi seçtiğiniz fotoğraf, video veya ev planları. Bu görüntülerde kişiler ya da evinizin içi görünebilir; yalnızca gerekenleri gönderin.",
+       "Fatura bilgileri: fatura (factura) düzenlendiğinde ad, NIF/NIE ve adres.",
+       "Online anketi kullanmayı seçerseniz yanıtlarınız: evcil hayvanınızın adı, bir erişim kodu ve ses kayıtları dahil yanıtlarınız."
+      ],
+      "p2": [
+       "Bu sitede gezinirken form, çerez veya analiz aracı aracılığıyla kişisel veri toplanmaz."
+      ]
+     },
+     {
+      "h": "Amaçlar ve hukuki dayanak",
+      "li": [
+       "Sorularınızı yanıtlamak ve ücretsiz görüşmeyi ayarlamak. Dayanak: talebiniz üzerine sözleşme öncesi adımlar (RGPD md. 6.1.b).",
+       "Satın alınan hizmeti sunmak: analiz, görüntülü görüşme, yazılı plan ve takip. Dayanak: sözleşmenin ifası (RGPD md. 6.1.b).",
+       "Fatura düzenlemek ve vergi ile muhasebe yükümlülüklerini yerine getirmek. Dayanak: yasal yükümlülük (RGPD md. 6.1.c).",
+       "Danışmanlığa hazırlanmak için online anketteki yanıtlarınızı işlemek. Dayanak: istediğiniz zaman geri alabileceğiniz rızanız (RGPD md. 6.1.a).",
+       "Bir görüntülü görüşmeyi kaydetmek veya bir vakayı yayımlamak. Dayanak: istediğiniz zaman geri alabileceğiniz açık rızanız (RGPD md. 6.1.a). Vakalar yalnızca yazılı izninizle yayımlanır."
+      ]
+     },
+     {
+      "h": "Saklama süresi",
+      "p": [
+       "Veriler ilişki sürdüğü müddetçe ve ardından olası yasal sorumluluklar için gereken süre boyunca saklanır. Fatura bilgileri vergi ve ticaret mevzuatının öngördüğü süreler boyunca tutulur.",
+       "Fotoğraf ve videolar hizmet için artık gerekli olmadığında ya da siz talep ederseniz daha önce silinir."
+      ]
+     },
+     {
+      "h": "Kullanılan hizmetler",
+      "p": [
+       "Yasal bir yükümlülük olmadıkça (örneğin İspanya vergi idaresine) veriler üçüncü kişilere aktarılmaz. İletişim ve hizmet için şu sağlayıcılar kullanılır:"
+      ],
+      "li": [
+       "WhatsApp (WhatsApp Ireland Limited, Meta grubu): mesajlar, aramalar ve dosyalar.",
+       "Telegram: yalnızca bu kanalı seçerseniz mesajlar ve dosyalar.",
+       "Google (Google Ireland Limited): Google Meet ile görüntülü görüşmeler ve Gmail ile e-posta.",
+       "Zoom (Zoom Communications, Inc.): görüntülü görüşmeler.",
+       "GitHub (GitHub, Inc.): bu web sitesinin barındırılması.",
+       "DigitalOcean (DigitalOcean, LLC): Avrupa Birliği'nde bulunan online anket sunucusu.",
+       "{ai}: anket yanıtlarının yapay zekâ ile işlenmesi."
+      ],
+      "p2": [
+       "İletişim kanalını siz seçersiniz. Bu hizmetlerden birini kullanmak istemezseniz söyleyin, başka bir seçenek buluruz."
+      ]
+     },
+     {
+      "h": "Uluslararası aktarımlar",
+      "p": [
+       "Bu sağlayıcıların bazıları verileri Avrupa Ekonomik Alanı dışında işleyebilir. Google, Meta, Zoom, GitHub, DigitalOcean ve {ai}, AB-ABD Veri Gizliliği Çerçevesi'ne katılım veya Avrupa Komisyonu'nun standart sözleşme maddeleri gibi güvenceler sunar. Telegram verileri kendi gizlilik politikasına göre işler."
+      ]
+     },
+     {
+      "h": "Haklarınız",
+      "p": [
+       "Verilerinize erişebilir, bunları düzeltebilir veya sildirebilir, işlenmesine itiraz edebilir, işlemenin kısıtlanmasını veya verilerin taşınmasını isteyebilir ve rızanızı istediğiniz zaman geri alabilirsiniz. Hangi hakkı kullanmak istediğinizi belirterek {email} adresine yazın.",
+       "Verilerinizin doğru işlenmediğini düşünüyorsanız İspanya Veri Koruma Kurumu'na (www.aepd.es) şikâyette bulunabilirsiniz."
+      ]
+     },
+     {
+      "h": "Yapay zekâ destekli online anket",
+      "p": [
+       "Online anket ayrı bir sitede ({quiz}) çalışır ve kullanımı isteğe bağlıdır. Adınızı, telefonunuzu veya e-postanızı sormaz: evcil hayvanınızın adı ve bir kodla kaydolursunuz.",
+       "Sesli yanıt vermeyi seçerseniz ses kayıtları dahil yanıtlarınız Avrupa Birliği'ndeki bir DigitalOcean sunucusunda saklanır ve bunları bir forma dönüştüren bir yapay zekâ hizmetiyle ({ai}) işlenir. Yapay zekâ teşhis koymaz ve sizin ya da evcil hayvanınız hakkında karar vermez: önerileri site sahibi hazırlar ve kontrol eder.",
+       "Yanıtlarınızın silinmesini istediğiniz zaman {email} adresine yazarak talep edebilirsiniz."
+      ]
+     },
+     {
+      "h": "Reşit olmayanlar",
+      "p": [
+       "Hizmetler reşit kişilere yöneliktir. 14 yaşından küçükseniz anne, baba veya vasinizin onayı olmadan kişisel veri göndermeyin."
+      ]
+     },
+     {
+      "h": "Bu politikadaki değişiklikler",
+      "p": [
+       "Bu politika güncellenebilir. Geçerli sürümün tarihi sayfanın başında yer alır."
+      ]
+     }
     ]
    },
    "cookies": {
     "title": "Çerez politikası",
     "desc": "Bu site çerez kullanmaz ve tarayıcınızda bilgi saklamaz.",
     "blocks": [
-     { "h": "Çerez nedir", "p": ["Çerezler, bir web sitesinin ziyaretinizle ilgili bilgileri hatırlamak için tarayıcınıza kaydettiği küçük dosyalardır. LSSI-CE'nin 22.2. maddesi, kesinlikle gerekli olanlar dışında çerezler hakkında bilgi verilmesini ve yüklenmeden önce onayınızın alınmasını zorunlu kılar."] },
-     { "h": "Bu sitenin kullandığı çerezler", "p": ["Hiçbiri. Bu site birinci veya üçüncü taraf çerez yüklemez, analiz ya da reklam aracı kullanmaz ve tarayıcınızın yerel depolama alanına bilgi kaydetmez. Yazı tipleri ve görseller doğrudan bu siteden yüklenir, harici hizmetlere bağlanılmaz.", "Bu nedenle herhangi bir çerez bildirimi görmezsiniz."] },
-     { "h": "Dil", "p": ["Seçtiğiniz dil sayfa adresinde gösterilir (örneğin ?lang=tr) ve cihazınızda saklanmaz."] },
-     { "h": "Barındırma", "p": ["Site GitHub Pages üzerinde barındırılmaktadır. GitHub, güvenlik amacıyla ziyaretçilerin IP adreslerini kendi sunucularında kaydedebilir; tarayıcınıza çerez yüklemez. GitHub'ın gizlilik bildirimine docs.github.com adresinden ulaşabilirsiniz."] },
-     { "h": "Değişiklikler", "p": ["İleride kesinlikle gerekli olmayan çerezler eklenirse, yüklenmeden önce onayınız istenecek ve bu politika güncellenecektir. Çerezleri istediğiniz zaman tarayıcı ayarlarınızdan engelleyebilir veya silebilirsiniz."] }
+     {
+      "h": "Çerez nedir",
+      "p": [
+       "Çerezler, bir web sitesinin ziyaretinizle ilgili bilgileri hatırlamak için tarayıcınıza kaydettiği küçük dosyalardır. LSSI-CE'nin 22.2. maddesi, kesinlikle gerekli olanlar dışında çerezler hakkında bilgi verilmesini ve yüklenmeden önce onayınızın alınmasını zorunlu kılar."
+      ]
+     },
+     {
+      "h": "Bu sitenin kullandığı çerezler",
+      "p": [
+       "Hiçbiri. Bu site birinci veya üçüncü taraf çerez yüklemez, analiz ya da reklam aracı kullanmaz ve tarayıcınızın yerel depolama alanına bilgi kaydetmez. Yazı tipleri ve görseller doğrudan bu siteden yüklenir, harici hizmetlere bağlanılmaz.",
+       "Bu nedenle herhangi bir çerez bildirimi görmezsiniz."
+      ]
+     },
+     {
+      "h": "Dil",
+      "p": [
+       "Seçtiğiniz dil sayfa adresinde gösterilir (örneğin ?lang=tr) ve cihazınızda saklanmaz."
+      ]
+     },
+     {
+      "h": "Barındırma",
+      "p": [
+       "Site GitHub Pages üzerinde barındırılmaktadır. GitHub, güvenlik amacıyla ziyaretçilerin IP adreslerini kendi sunucularında kaydedebilir; tarayıcınıza çerez yüklemez. GitHub'ın gizlilik bildirimine docs.github.com adresinden ulaşabilirsiniz."
+      ]
+     },
+     {
+      "h": "Online anket",
+      "p": [
+       "Anket ayrı bir web sitesinde ({quiz}) çalışır. Oturumunuzun açık kalması için teknik çerezler kullanabilir; bunlar kesinlikle gereklidir ve onay gerektirmez."
+      ]
+     },
+     {
+      "h": "Değişiklikler",
+      "p": [
+       "İleride kesinlikle gerekli olmayan çerezler eklenirse, yüklenmeden önce onayınız istenecek ve bu politika güncellenecektir. Çerezleri istediğiniz zaman tarayıcı ayarlarınızdan engelleyebilir veya silebilirsiniz."
+      ]
+     }
     ]
    }
   }
@@ -157,40 +640,201 @@
     "title": "Legal notice",
     "desc": "Information about the owner of this website and its terms of use.",
     "blocks": [
-     { "h": "Website owner", "p": ["In accordance with Article 10 of Spanish Law 34/2002 of 11 July on information society services and electronic commerce (LSSI-CE), the owner of this website is:"], "li": ["Owner: {name}", "NIF/NIE: {nif}", "Address: {address}", "Email: {email}", "Phone: {phone}", "Activity: online welfare consulting for companion animals"] },
-     { "h": "Purpose of the site", "p": ["This website presents the online animal welfare consulting services offered by the owner and makes it easy to contact her.", "Consulting does not replace veterinary care. Diagnosing and treating illness is always a vet's job."] },
-     { "h": "Terms of use", "p": ["Access to the site is free and requires no registration. By using it you agree to do so in line with the law, good faith and this legal notice, and not to do anything that could damage the site or stop others from using it."] },
-     { "h": "Intellectual and industrial property", "p": ["Unless stated otherwise, the texts, design and code of this site belong to the owner. They may not be reproduced or distributed for commercial purposes without her prior permission.", "The photos come from Unsplash and are used under the Unsplash License. The Nunito, Playfair Display and Unbounded typefaces are distributed under the SIL Open Font License."] },
-     { "h": "Liability", "p": ["The information on this site is general guidance. The owner takes care to keep it accurate and up to date but is not liable for damage resulting from use of the site contrary to the law or this notice, or for technical interruptions beyond her control.", "Links to third-party sites are provided for reference only. The owner does not control their content and is not responsible for it."] },
-     { "h": "Data protection and cookies", "p": ["How your personal data is processed is explained in the privacy policy. This site does not use cookies; details are in the cookie policy."] },
-     { "h": "Governing law", "p": ["This legal notice is governed by Spanish law. Disputes will be heard by the courts determined by law; if you act as a consumer, by the courts of your place of residence."] }
+     {
+      "h": "Website owner",
+      "p": [
+       "In accordance with Article 10 of Spanish Law 34/2002 of 11 July on information society services and electronic commerce (LSSI-CE), the owner of this website is:"
+      ],
+      "li": [
+       "Owner: {name}",
+       "NIF/NIE: {nif}",
+       "Address: {address}",
+       "Email: {email}",
+       "Phone: {phone}",
+       "Activity: online welfare consulting for companion animals"
+      ]
+     },
+     {
+      "h": "Purpose of the site",
+      "p": [
+       "This website presents the online animal welfare consulting services offered by the owner and makes it easy to contact her.",
+       "Consulting does not replace veterinary care. Diagnosing and treating illness is always a vet's job."
+      ]
+     },
+     {
+      "h": "Terms of use",
+      "p": [
+       "Access to the site is free and requires no registration. By using it you agree to do so in line with the law, good faith and this legal notice, and not to do anything that could damage the site or stop others from using it."
+      ]
+     },
+     {
+      "h": "Intellectual and industrial property",
+      "p": [
+       "Unless stated otherwise, the texts, design and code of this site belong to the owner. They may not be reproduced or distributed for commercial purposes without her prior permission.",
+       "The photos come from Unsplash and are used under the Unsplash License. The Nunito, Playfair Display and Unbounded typefaces are distributed under the SIL Open Font License."
+      ]
+     },
+     {
+      "h": "Liability",
+      "p": [
+       "The information on this site is general guidance. The owner takes care to keep it accurate and up to date but is not liable for damage resulting from use of the site contrary to the law or this notice, or for technical interruptions beyond her control.",
+       "Links to third-party sites are provided for reference only. The owner does not control their content and is not responsible for it."
+      ]
+     },
+     {
+      "h": "Data protection and cookies",
+      "p": [
+       "How your personal data is processed is explained in the privacy policy. This site does not use cookies; details are in the cookie policy."
+      ]
+     },
+     {
+      "h": "Governing law",
+      "p": [
+       "This legal notice is governed by Spanish law. Disputes will be heard by the courts determined by law; if you act as a consumer, by the courts of your place of residence."
+      ]
+     }
     ]
    },
    "privacy": {
     "title": "Privacy policy",
     "desc": "How your personal data is handled when you get in touch or book a consultation.",
     "blocks": [
-     { "h": "Data controller", "li": ["Controller: {name}", "NIF/NIE: {nif}", "Address: {address}", "Email: {email}", "Phone: {phone}"] },
-     { "h": "What data is processed", "p": ["Only what you provide when you get in touch or book a service:"], "li": ["Contact details: name, phone number, email address and username in messaging apps.", "Information about your pet and your home: species, age, routine, living conditions and any photos, videos or floor plans you choose to send. These images may show people or the inside of your home, so send only what is needed.", "Billing details: name, NIF/NIE and address, when an invoice is issued."], "p2": ["Browsing this site does not collect personal data through forms, cookies or analytics tools."] },
-     { "h": "Purposes and legal basis", "li": ["Answering your enquiries and arranging the free call. Legal basis: steps taken at your request before entering into a contract (Art. 6(1)(b) GDPR).", "Providing the service you book: analysis, video call, written plan and follow-up. Legal basis: performance of a contract (Art. 6(1)(b) GDPR).", "Issuing invoices and meeting tax and accounting obligations. Legal basis: legal obligation (Art. 6(1)(c) GDPR).", "Recording a video call or publishing a case story. Legal basis: your explicit consent, which you can withdraw at any time (Art. 6(1)(a) GDPR). Case stories are published only with your written permission."] },
-     { "h": "How long data is kept", "p": ["Data is kept for as long as we work together and then for as long as needed to deal with possible legal claims. Billing data is kept for the periods required by tax and commercial law.", "Photos and videos are deleted once they are no longer needed for the service, or earlier if you ask."] },
-     { "h": "Services used", "p": ["Data is not shared with third parties unless the law requires it (for example, with the Spanish Tax Agency). The following providers are used to communicate and deliver the service:"], "li": ["WhatsApp (WhatsApp Ireland Limited, Meta group): messages, calls and files.", "Telegram: messages and files, only if you choose this channel.", "Google (Google Ireland Limited): video calls with Google Meet and email with Gmail.", "Zoom (Zoom Communications, Inc.): video calls.", "GitHub (GitHub, Inc.): hosting of this website."], "p2": ["You choose the channel. If you'd rather not use one of these services, tell me and we'll find another option."] },
-     { "h": "International transfers", "p": ["Some of these providers may process data outside the European Economic Area. Google, Meta, Zoom and GitHub provide safeguards such as participation in the EU-US Data Privacy Framework or the European Commission's standard contractual clauses. Telegram processes data under its own privacy policy."] },
-     { "h": "Your rights", "p": ["You can access, rectify or erase your data, object to its processing, ask for processing to be restricted or for your data to be ported, and withdraw your consent at any time. Write to {email} saying which right you want to exercise.", "If you believe your data is not being handled properly, you can complain to the Spanish Data Protection Agency (www.aepd.es)."] },
-     { "h": "AI-assisted online questionnaire", "p": ["The AI-assisted online questionnaire is not available yet. Before it opens, this policy will be updated with the provider and the processing terms, and when you start the questionnaire you will be told that your answers are processed by AI."] },
-     { "h": "Minors", "p": ["The services are intended for adults. If you are under 14, do not send personal data without the consent of your parents or guardians."] },
-     { "h": "Changes to this policy", "p": ["This policy may be updated. The date of the current version is shown at the top of the page."] }
+     {
+      "h": "Data controller",
+      "li": [
+       "Controller: {name}",
+       "NIF/NIE: {nif}",
+       "Address: {address}",
+       "Email: {email}",
+       "Phone: {phone}"
+      ]
+     },
+     {
+      "h": "What data is processed",
+      "p": [
+       "Only what you provide when you get in touch or book a service:"
+      ],
+      "li": [
+       "Contact details: name, phone number, email address and username in messaging apps.",
+       "Information about your pet and your home: species, age, routine, living conditions and any photos, videos or floor plans you choose to send. These images may show people or the inside of your home, so send only what is needed.",
+       "Billing details: name, NIF/NIE and address, when an invoice is issued.",
+       "Your answers to the online questionnaire, if you choose to use it: your pet's name, an access code and your answers, including voice recordings."
+      ],
+      "p2": [
+       "Browsing this site does not collect personal data through forms, cookies or analytics tools."
+      ]
+     },
+     {
+      "h": "Purposes and legal basis",
+      "li": [
+       "Answering your enquiries and arranging the free call. Legal basis: steps taken at your request before entering into a contract (Art. 6(1)(b) GDPR).",
+       "Providing the service you book: analysis, video call, written plan and follow-up. Legal basis: performance of a contract (Art. 6(1)(b) GDPR).",
+       "Issuing invoices and meeting tax and accounting obligations. Legal basis: legal obligation (Art. 6(1)(c) GDPR).",
+       "Processing your answers to the online questionnaire to prepare the consultation. Legal basis: your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time.",
+       "Recording a video call or publishing a case story. Legal basis: your explicit consent, which you can withdraw at any time (Art. 6(1)(a) GDPR). Case stories are published only with your written permission."
+      ]
+     },
+     {
+      "h": "How long data is kept",
+      "p": [
+       "Data is kept for as long as we work together and then for as long as needed to deal with possible legal claims. Billing data is kept for the periods required by tax and commercial law.",
+       "Photos and videos are deleted once they are no longer needed for the service, or earlier if you ask."
+      ]
+     },
+     {
+      "h": "Services used",
+      "p": [
+       "Data is not shared with third parties unless the law requires it (for example, with the Spanish Tax Agency). The following providers are used to communicate and deliver the service:"
+      ],
+      "li": [
+       "WhatsApp (WhatsApp Ireland Limited, Meta group): messages, calls and files.",
+       "Telegram: messages and files, only if you choose this channel.",
+       "Google (Google Ireland Limited): video calls with Google Meet and email with Gmail.",
+       "Zoom (Zoom Communications, Inc.): video calls.",
+       "GitHub (GitHub, Inc.): hosting of this website.",
+       "DigitalOcean (DigitalOcean, LLC): server for the online questionnaire, located in the European Union.",
+       "{ai}: AI processing of the questionnaire answers."
+      ],
+      "p2": [
+       "You choose the channel. If you'd rather not use one of these services, tell me and we'll find another option."
+      ]
+     },
+     {
+      "h": "International transfers",
+      "p": [
+       "Some of these providers may process data outside the European Economic Area. Google, Meta, Zoom, GitHub, DigitalOcean and {ai} provide safeguards such as participation in the EU-US Data Privacy Framework or the European Commission's standard contractual clauses. Telegram processes data under its own privacy policy."
+      ]
+     },
+     {
+      "h": "Your rights",
+      "p": [
+       "You can access, rectify or erase your data, object to its processing, ask for processing to be restricted or for your data to be ported, and withdraw your consent at any time. Write to {email} saying which right you want to exercise.",
+       "If you believe your data is not being handled properly, you can complain to the Spanish Data Protection Agency (www.aepd.es)."
+      ]
+     },
+     {
+      "h": "AI-assisted online questionnaire",
+      "p": [
+       "The online questionnaire runs on a separate site ({quiz}) and using it is optional. It doesn't ask for your name, phone or email: you sign up with your pet's name and a code.",
+       "Your answers, including voice recordings if you choose to answer by speaking, are stored on a DigitalOcean server in the European Union and processed by an AI service ({ai}) that organises them into a profile. The AI does not diagnose or make decisions about you or your pet: the owner prepares and checks the recommendations.",
+       "You can ask for your answers to be deleted at any time by writing to {email}."
+      ]
+     },
+     {
+      "h": "Minors",
+      "p": [
+       "The services are intended for adults. If you are under 14, do not send personal data without the consent of your parents or guardians."
+      ]
+     },
+     {
+      "h": "Changes to this policy",
+      "p": [
+       "This policy may be updated. The date of the current version is shown at the top of the page."
+      ]
+     }
     ]
    },
    "cookies": {
     "title": "Cookie policy",
     "desc": "This site uses no cookies and stores nothing in your browser.",
     "blocks": [
-     { "h": "What cookies are", "p": ["Cookies are small files a website stores in your browser to remember information about your visit. Article 22.2 of the LSSI-CE requires sites to tell you about them and to ask for your consent before setting them, except for strictly necessary ones."] },
-     { "h": "Cookies used on this site", "p": ["None. This site sets no first-party or third-party cookies, uses no analytics or advertising tools and stores nothing in your browser's local storage. Fonts and images load from the site itself, with no connections to outside services.", "That is why you won't see a cookie banner."] },
-     { "h": "Language", "p": ["The language you choose is shown in the page address (for example, ?lang=en) and is not stored on your device."] },
-     { "h": "Hosting", "p": ["The site is hosted on GitHub Pages. GitHub may log visitors' IP addresses on its servers for security purposes, without setting cookies in your browser. GitHub's privacy statement is available at docs.github.com."] },
-     { "h": "Changes", "p": ["If cookies that are not strictly necessary are ever added, your consent will be requested before they are set and this policy will be updated. You can block or delete cookies at any time in your browser settings."] }
+     {
+      "h": "What cookies are",
+      "p": [
+       "Cookies are small files a website stores in your browser to remember information about your visit. Article 22.2 of the LSSI-CE requires sites to tell you about them and to ask for your consent before setting them, except for strictly necessary ones."
+      ]
+     },
+     {
+      "h": "Cookies used on this site",
+      "p": [
+       "None. This site sets no first-party or third-party cookies, uses no analytics or advertising tools and stores nothing in your browser's local storage. Fonts and images load from the site itself, with no connections to outside services.",
+       "That is why you won't see a cookie banner."
+      ]
+     },
+     {
+      "h": "Language",
+      "p": [
+       "The language you choose is shown in the page address (for example, ?lang=en) and is not stored on your device."
+      ]
+     },
+     {
+      "h": "Hosting",
+      "p": [
+       "The site is hosted on GitHub Pages. GitHub may log visitors' IP addresses on its servers for security purposes, without setting cookies in your browser. GitHub's privacy statement is available at docs.github.com."
+      ]
+     },
+     {
+      "h": "Online questionnaire",
+      "p": [
+       "The questionnaire runs on a separate website ({quiz}). To keep you signed in it may use technical cookies, which are strictly necessary and do not require consent."
+      ]
+     },
+     {
+      "h": "Changes",
+      "p": [
+       "If cookies that are not strictly necessary are ever added, your consent will be requested before they are set and this policy will be updated. You can block or delete cookies at any time in your browser settings."
+      ]
+     }
     ]
    }
   }

@@ -234,6 +234,8 @@
 .upload .ic{font-size:22px;stroke-width:2.4}
 .quiz-copy{flex:1 1 460px;min-width:0;display:flex;flex-direction:column;gap:18px}
 .quiz-copy .mark{color:var(--violet)}
+.quiz-cta{display:flex;flex-wrap:wrap;gap:12px}
+.mock-head span.live{background:var(--mint)}
 .facts4{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .facts4 li{display:flex;gap:12px;align-items:flex-start;padding:16px;border-radius:20px;background:var(--surface);font-size:15px;font-weight:700;line-height:1.45}
 .facts4 .ic{font-size:22px;color:var(--violet-soft)}
@@ -325,6 +327,7 @@
   <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h10"></path></symbol>
   <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></symbol>
   <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14"></path><path d="M5 12h14"></path></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5.5 11a6.5 6.5 0 0 0 13 0"></path><path d="M12 17.5V21"></path></symbol>
   <symbol id="i-camera" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="14" rx="3"></rect><circle cx="12" cy="12.5" r="3.6"></circle><path d="M8.5 5.5l1.4-2h4.2l1.4 2"></path></symbol>
 </svg>
 
@@ -640,7 +643,7 @@
     <div class="mock-col" data-reveal>
       <div class="blob" aria-hidden="true"></div>
       <div class="mock">
-        <div class="mock-head"><span data-i18n="preview"></span><span data-i18n="soon"></span></div>
+        <div class="mock-head"><span data-i18n="preview"></span><span class="live" data-i18n="qLive"></span></div>
         <div class="qstep"><span data-i18n="qStep"></span><div class="qbar"><span></span></div></div>
         <p class="qtitle" id="qtitle" data-i18n="qQuestion"></p>
         <div class="opts" role="radiogroup" aria-labelledby="qtitle">
@@ -648,12 +651,12 @@
           <button type="button" class="opt" role="radio" aria-checked="true" data-i18n="qo.1"></button>
           <button type="button" class="opt" role="radio" aria-checked="false" data-i18n="qo.2"></button>
         </div>
-        <div class="upload"><svg class="ic"><use href="#i-plus"></use></svg><span data-i18n="qUpload"></span></div>
-        <span class="btn btn-ink" aria-disabled="true" style="align-self:flex-end;opacity:1"><span data-i18n="qNext"></span><svg class="ic arr"><use href="#i-arrow"></use></svg></span>
+        <div class="upload"><svg class="ic"><use href="#i-mic"></use></svg><span data-i18n="qVoice"></span></div>
+        <a class="btn btn-ink" href="%QUIZ_URL%" target="_blank" rel="noopener" style="align-self:flex-end"><span data-i18n="qNext"></span><svg class="ic arr"><use href="#i-arrow"></use></svg></a>
       </div>
     </div>
     <div class="quiz-copy" data-reveal>
-      <span class="badge"><span class="pulse-dot soon"></span><span data-i18n="qBadge"></span></span>
+      <span class="badge"><span class="pulse-dot"></span><span data-i18n="qBadge"></span></span>
       <h2 class="h2"><span data-i18n="qA"></span><span class="mark" data-i18n="qI"></span><span data-i18n="qB"></span></h2>
       <p class="lead" data-i18n="qText"></p>
       <ul class="facts4">
@@ -663,7 +666,7 @@
         <li><svg class="ic"><use href="#i-steth"></use></svg><span data-i18n="q4"></span></li>
       </ul>
       <p style="font-size:15px;color:var(--soft)" data-i18n="qNote"></p>
-      <a class="btn btn-soft" href="#booking" style="align-self:flex-start"><span data-i18n="bookCall"></span><svg class="ic arr"><use href="#i-arrow"></use></svg></a>
+      <div class="quiz-cta"><a class="btn btn-accent" href="%QUIZ_URL%" target="_blank" rel="noopener"><span data-i18n="qOpen"></span><svg class="ic arr"><use href="#i-arrow"></use></svg></a><a class="btn btn-soft" href="#booking"><span data-i18n="bookCall"></span><svg class="ic arr"><use href="#i-arrow"></use></svg></a></div>
     </div>
   </div>
 </section>

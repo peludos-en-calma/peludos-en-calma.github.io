@@ -95,7 +95,9 @@ const faq = main.es.faqs.map((_, i) => {
       <div class="acc-panel" id="faq-a${i}" role="region" aria-labelledby="faq-q${i}"${open ? '' : ' inert aria-hidden="true"'}><div><p data-i18n="faqs.${i}.a"></p></div></div>
     </div>`;
 }).join('\n');
-const landing = read('src/template.html').replace('    <!--FAQ_ITEMS-->', () => faq);
+const landing = read('src/template.html')
+  .replace('    <!--FAQ_ITEMS-->', () => faq)
+  .replaceAll('%QUIZ_URL%', () => escAttr(owner.quiz));
 write('site/index.html', render(landing, main).replace('<!--ARTIFACT_META-->\n', ''));
 
 /* ---------- legal pages ---------- */
