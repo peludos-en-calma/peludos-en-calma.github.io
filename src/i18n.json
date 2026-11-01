@@ -337,7 +337,6 @@
   "onlineD": "se abrirá junto con el pago online",
   "where": "Gijón, Asturias, España · solo online",
   "disclaimer": "Las consultas no sustituyen la atención veterinaria. Si tu mascota está enferma o ves señales de dolor, acude al veterinario.",
-  "legal": "El aviso legal y las políticas de privacidad y cookies se publicarán al abrir la reserva online.",
   "photos": "Fotos: Unsplash",
   "alt": {
    "hero": "Un gato toca con la pata la mano de su dueña",
@@ -402,7 +401,11 @@
   "metaTitle": "Bienestar Animal · Irina Chernikov",
   "metaDesc": "Asesoría online de bienestar para perros, gatos, conejos, hurones, roedores y aves. Llamada gratuita de 15 minutos y plan por escrito en 48 horas.",
   "skip": "Ir al contenido",
-  "closeMenu": "Cerrar menú"
+  "closeMenu": "Cerrar menú",
+  "lgNav": "Textos legales",
+  "lgAviso": "Aviso legal",
+  "lgPrivacy": "Política de privacidad",
+  "lgCookies": "Política de cookies"
  },
  "ru": {
   "home": "Bienestar Animal — на главную",
@@ -742,7 +745,6 @@
   "onlineD": "откроется вместе с онлайн-оплатой",
   "where": "Gijón, Астурия, Испания · только онлайн",
   "disclaimer": "Консультации не заменяют ветеринарную помощь. Если питомец болен или вы видите признаки боли, обратитесь к ветеринару.",
-  "legal": "Aviso legal, política de privacidad и política de cookies будут опубликованы вместе с открытием онлайн-записи.",
   "photos": "Фотографии: Unsplash",
   "alt": {
    "hero": "Кошка касается лапой ладони хозяйки",
@@ -807,7 +809,11 @@
   "metaTitle": "Bienestar Animal · Irina Chernikov",
   "metaDesc": "Онлайн-консультации по благополучию собак, кошек, кроликов, хорьков, грызунов и птиц. Бесплатный 15-минутный звонок и письменный план за 48 часов.",
   "skip": "Перейти к содержанию",
-  "closeMenu": "Закрыть меню"
+  "closeMenu": "Закрыть меню",
+  "lgNav": "Правовые документы",
+  "lgAviso": "Правовая информация",
+  "lgPrivacy": "Политика конфиденциальности",
+  "lgCookies": "Политика cookies"
  },
  "tr": {
   "home": "Bienestar Animal — ana sayfa",
@@ -1147,7 +1153,6 @@
   "onlineD": "online ödemeyle birlikte açılacak",
   "where": "Gijón, Asturias, İspanya · yalnızca online",
   "disclaimer": "Danışmanlık veteriner hizmetinin yerini tutmaz. Evcil hayvanınız hastaysa veya ağrı belirtileri görüyorsanız veterinere başvurun.",
-  "legal": "Yasal uyarı (aviso legal), gizlilik ve çerez politikaları online randevu açıldığında yayımlanacak.",
   "photos": "Fotoğraflar: Unsplash",
   "alt": {
    "hero": "Bir kedi patisiyle sahibinin eline dokunuyor",
@@ -1212,7 +1217,11 @@
   "metaTitle": "Bienestar Animal · Irina Chernikov",
   "metaDesc": "Köpek, kedi, tavşan, gelincik, kemirgen ve kuşlar için online refah danışmanlığı. 15 dakikalık ücretsiz görüşme ve 48 saatte yazılı plan.",
   "skip": "İçeriğe geç",
-  "closeMenu": "Menüyü kapat"
+  "closeMenu": "Menüyü kapat",
+  "lgNav": "Yasal metinler",
+  "lgAviso": "Yasal uyarı",
+  "lgPrivacy": "Gizlilik politikası",
+  "lgCookies": "Çerez politikası"
  },
  "en": {
   "home": "Bienestar Animal — home",
@@ -1552,7 +1561,6 @@
   "onlineD": "opens together with online payment",
   "where": "Gijón, Asturias, Spain · online only",
   "disclaimer": "Consultations don't replace veterinary care. If your pet is ill or you see signs of pain, contact a vet.",
-  "legal": "The legal notice, privacy policy and cookie policy will be published when online booking opens.",
   "photos": "Photos: Unsplash",
   "alt": {
    "hero": "A cat touches its owner's hand with its paw",
@@ -1617,6 +1625,10 @@
   "metaTitle": "Bienestar Animal · Irina Chernikov",
   "metaDesc": "Online welfare consulting for dogs, cats, rabbits, ferrets, rodents and birds. A free 15-minute call and a written plan within 48 hours.",
   "skip": "Skip to content",
-  "closeMenu": "Close menu"
+  "closeMenu": "Close menu",
+  "lgNav": "Legal texts",
+  "lgAviso": "Legal notice",
+  "lgPrivacy": "Privacy policy",
+  "lgCookies": "Cookie policy"
  }
 }
