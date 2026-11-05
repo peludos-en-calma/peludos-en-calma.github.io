@@ -108,7 +108,7 @@ for (const [key, slug] of DOCS) {
     dict[l] = {
       ...Object.fromEntries(SHARED_UI.map((k) => [k, main[l][k]])),
       ...legal[l].ui,
-      doc: { ...doc, metaTitle: `${doc.title} · Bienestar Animal` },
+      doc: { ...doc, metaTitle: `${doc.title} · Peludos en Calma` },
     };
   }
   const sections = legal.es.docs[key].blocks.map((b, i) => {

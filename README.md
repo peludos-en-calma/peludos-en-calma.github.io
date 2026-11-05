@@ -1,4 +1,4 @@
-# Bienestar Animal — лендинг
+# Peludos en Calma — лендинг
 
 Сайт: **https://peludos-en-calma.github.io/**
 
